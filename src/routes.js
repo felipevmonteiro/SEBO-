@@ -1,21 +1,36 @@
 import React from 'react'
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
-import Cadastro from './Pages/Cadastro'
-import Login from './Pages/Login'
-import Home from './Pages/Home'
-import Menu from './Pages/Menu'
+import {BrowserRouter, Redirect, Route, Switch } from 'react-router-dom'
+
+import Cadastro from "./Pages/Cadastro";
+import Home from "./Pages/Home";
+import Login from "./Pages/Login";
+import Menu from "./Pages/Menu";
+import NossosLivros from "./Pages/NossosLivros";
+import AdicionarExemplar from "./Pages/AdicionarExemplar";
 
 function Routes(){
     return(
         <BrowserRouter>
             <Switch>
-                <Route path ="/Login" component={Login}/>
-                <Route path ="/Home" component={Home}/>
-                <Route path ="/Cadastro" component ={Cadastro}/>
-                <Route path ="/Menu" component ={Menu}/>
+                <Route exact path="/login" component={Login} />
+                <Route exact path="/cadastro" component={Cadastro} />
+                <Route exact path="/nossoslivros" component={NossosLivros} />
+                <Route exact path="/adicionarexemplar" component={AdicionarExemplar} />
+                <Route path="/" component={userMenu} />
             </Switch>
-        </BrowserRouter>
-    )
+        </BrowserRouter> 
+    );
+}
+
+function userMenu(){
+    return (
+        <Menu>
+            <Switch>
+                <Route path="/home" component={Home} />
+                <Route path="/home" component={() => <Redirect to="/login"/>} />
+            </Switch>
+        </Menu>
+    );
 }
 
 export default Routes;
