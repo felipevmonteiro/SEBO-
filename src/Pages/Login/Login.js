@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {Form, FormGroup} from 'react-bootstrap' 
 import { useHistory } from 'react-router-dom' 
 import Button from 'react-bootstrap/Button' 
-import "./login.css"; 
+import "./Login.css"; 
 require("typeface-quicksand") 
  
  //#790c5a,#cc0e74,#e6739f

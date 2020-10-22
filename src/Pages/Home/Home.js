@@ -26,15 +26,16 @@ function Home(){
                   </IconButton>
               </IconContext.Provider>
             )}
+            
             defaultControlsConfig={{
               pagingDotsStyle: {
                 fill: 'white'
               }
-            }}>
-            
+            }} >           
             <img alt="imagem" src="/images/slide-1.png"/>
             <img alt="imagem" src="/images/familia-miyako.jpg"/>
-            <img alt="imagem" src="/images/slide-3.jpg"/>
+            <img alt="imagem" src="/images/slide-3.jpg"/>    
+                
       </Carousel>
       <div className="section-2">
         <img alt="imagem" className="capa-imagem" src="/images/section-2.png"/>
