@@ -7,12 +7,16 @@ import Carousel from 'nuka-carousel';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { BsCircleFill } from "react-icons/bs";
 import { IconContext } from "react-icons";
+import { Badge } from 'react-bootstrap'
+require("typeface-quicksand")
 
 function Home(){
     const history = useHistory();
     return (
+      
       <>
-        <Carousel autoplay={true} cellAlign="center" renderCenterLeftControls={({ previousSlide }) => (
+        
+        <Carousel autoplay={false} cellAlign="center" renderCenterLeftControls={({ previousSlide }) => (
             <IconContext.Provider value={{color: "#ffff", size: "5.5rem"}}>
                 <IconButton onClick={ previousSlide}>
                     <IoIosArrowBack/>
@@ -37,7 +41,10 @@ function Home(){
             <img alt="imagem" src="/images/slide-3.jpg"/>    
                 
       </Carousel>
+
       <div className="section-2">
+        <h1 className="globalTitle">
+          Novidades da <Badge variant="secondary">semana</Badge></h1>
         <img alt="imagem" className="capa-imagem" src="/images/section-2.png"/>
       </div>
       

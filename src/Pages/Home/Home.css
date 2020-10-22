@@ -47,3 +47,9 @@
 .imagem-left{
     margin-right: 78%;
 }
+.globalTitle{
+    padding-top: 70px;
+    font-size: 50px;
+    font-family: 'Quicksand';
+    font-weight: 600;
+}
