@@ -1,3 +1,49 @@
-.icon{
-    color: white;
+.item-active{
+    position: relative;
+}
+
+.carousel-caption{
+    position: absolute;
+}
+
+.section-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #733840;
+}
+
+.section-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F2C4D5;
+}
+
+.capa-imagem{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagem-right{
+    margin-left: 55%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.imagem-left{
+    margin-right: 78%;
 }
