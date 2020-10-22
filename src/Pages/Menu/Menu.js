@@ -1,6 +1,6 @@
 import { Drawer, List, ListItem, ListItemText, Typography, AppBar, Toolbar, IconButton, Avatar } from "@material-ui/core";
 import React, { useState } from "react";
-import { MdArchive, MdHome, MdMenu, MdNoteAdd } from "react-icons/md"
+import { MdHome, MdLibraryBooks, MdMenu, MdLaptop } from "react-icons/md"
 import { FaUser } from "react-icons/fa"
 import { IconContext } from "react-icons";
 import "./Menu.css";
@@ -28,28 +28,28 @@ function Menu(props){
             iconSize: "1.5em",
         },
         {
-            pathName: "/newnote",
-            icon: <MdNoteAdd/>,
-            text: "Nova Anotação",
+            pathName: "/nossoslivros",
+            icon: <MdLibraryBooks/>,
+            text: "Nossos Livros",
             iconSize: "1.5em",
         },
         {
-            pathName: "/archive",
-            icon: <MdArchive/>,
-            text: "Arquivo",
-            iconSize: "1.5em",
-        },
-        {
-            pathName: "/profile",
+            pathName: "/login",
             icon: <FaUser/>,
-            text: "Perffil",
-            iconSize: "1.3em",
+            text: "Login",
+            iconSize: "1.5em",
+        },
+        {
+            pathName: "/cadastro",
+            icon: <MdLaptop/>,
+            text: "Cadastro",
+            iconSize: "1.7em",
         },
     ];
 
     return (
         <>
-        <AppBar position="static">
+        <AppBar position="fixed">
             <Toolbar className="toolBar">
                 <IconButton edge="start" aria-label="menu" onClick={() => handleDrawer(!open)}>
                     <MdMenu />
