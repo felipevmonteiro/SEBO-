@@ -7,8 +7,6 @@
     flex-direction: column;  
 }
 .Cadastro .base{
-    background: rgb(122, 56, 56); 
-    height: 100%;
     width: 100vw;
     display:flex; 
     align-items: center; 
@@ -31,4 +29,36 @@
 .Cadastro .textbook{
     font-family: 'Quicksand';
     font-weight: 500;
+}
+.dados1{
+    margin-top: 20px;
+    margin-left: 25px;
+    align-items: center;
+    font-size: larger;
+
+}
+.containbook{
+    background-image: url(/images/LivroFinal2Cadastro.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 450px;
+ 
+}
+.dados2{
+    margin-top: -365px;
+    margin-left: 330px;
+    align-items: center;
+    font-size: larger;
+
+}
+.posicaocaneta{
+    margin-left: 380px;
+    margin-top: -100px;
+}
+.caneta{
+    max-width: 350px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
 }
