@@ -1,13 +1,22 @@
-#base{
-    background-color: rgb(122, 56, 56);
-    height: 100%; 
+.Cadastro{
+    height: 100%;
+    width: 100vw;
+    display:flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;  
+}
+.Cadastro .base{
+    background: rgb(122, 56, 56); 
+    height: 100%;
+    width: 100vw;
     display:flex; 
     align-items: center; 
     justify-content: center;
     flex-direction: column;  
 }
 
-#container{
+.Cadastro .container{
     align-items: center;
     padding-top: 5%;
     max-width: 100%;
@@ -16,10 +25,10 @@
     flex-direction: column; 
     padding-bottom: 50px;
 }
-#book{
+.Cadastro .book{
     width: 500px;
 }
-#textbook{
+.Cadastro .textbook{
     font-family: 'Quicksand';
     font-weight: 500;
 }

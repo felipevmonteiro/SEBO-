@@ -1,4 +1,19 @@
-.container{ 
+.Login{
+    height: 100%; 
+    width: 100%;
+    display:flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.Login .base{ 
+    background: linear-gradient(45deg,pink,#cc0e74,#790c5a); 
+    display:flex; 
+    width: 100vw;
+    height: 100%;
+    background-size:300% 300%;
+    animation: colors 10s ease infinite;
+}
+.Login .container{ 
     display: flex; 
     flex-direction: column; 
     justify-content: center;
@@ -8,37 +23,30 @@
     flex-grow: 1; 
 
 } 
-#within{
+.Login .within{
     align-items: center;
-    max-width: 60%;
+    max-width: 500px;
+    height: 200px;
     display: flex; 
     flex-direction: column; 
     justify-content: center;
 }
-#form{
+.Login .form{
     max-width: 90%;
 }
-#HaiKai{ 
+.Login .HaiKai{ 
     min-height:100%;
     max-width: 100%; 
 }
-#sakura{ 
+.Login .sakura{ 
     height: 100%;   
     width: 50%; 
 } 
 #button{ 
     width: 300px; 
 } 
-.base{ 
-    background: linear-gradient(90deg,pink,#cc0e74,#790c5a);
-    height: 100%; 
-    display:flex; 
-    align-items: center; 
-    justify-content: center; 
-    background-size:400% 400%;
-    animation: colors 20s ease infinite;
-} 
-.input{ 
+ 
+.Login .input{ 
     margin-left: 16px; 
     margin-right: 16px; 
 } 
