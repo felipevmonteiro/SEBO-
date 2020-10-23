@@ -21,18 +21,18 @@
     display:flex; 
     justify-content: center;
     flex-direction: column; 
-    padding-bottom: 50px;
+    padding-bottom: 3%;
 }
 .Cadastro .book{
-    width: 500px;
+    width: 100%;
 }
 .Cadastro .textbook{
     font-family: 'Quicksand';
     font-weight: 500;
 }
 .dados1{
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 3%;
+    margin-left: 4%;
     align-items: center;
     font-size: larger;
 
@@ -42,23 +42,23 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
-    height: 450px;
+    height: 100%;
  
 }
 .dados2{
-    margin-top: -365px;
-    margin-left: 330px;
+    margin-top: -53%;
+    margin-left: 48%;
     align-items: center;
     font-size: larger;
 
 }
 .posicaocaneta{
-    margin-left: 380px;
-    margin-top: -100px;
+    margin-left: 55%;
+    margin-top: -14%;
 }
 .caneta{
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 120%;
+    max-height: 100%;
     width: auto;
     height: auto;
 }
