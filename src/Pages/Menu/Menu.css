@@ -28,3 +28,9 @@
     align-items: center;
     margin-left: auto;
 }
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+

@@ -1,6 +1,5 @@
 import React from 'react'
 import {BrowserRouter, Redirect, Route, Switch } from 'react-router-dom'
-
 import Cadastro from "./Pages/Cadastro";
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
@@ -12,8 +11,8 @@ function Routes(){
     return(
         <BrowserRouter>
             <Switch>
+                <Route exact path="/cadastro" component={Cadastro} />   
                 <Route exact path="/login" component={Login} />
-                <Route exact path="/cadastro" component={Cadastro} />
                 <Route exact path="/nossoslivros" component={NossosLivros} />
                 <Route exact path="/adicionarexemplar" component={AdicionarExemplar} />
                 <Route path="/" component={userMenu} />
