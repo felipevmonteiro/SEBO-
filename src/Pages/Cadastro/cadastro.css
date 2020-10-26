@@ -1,13 +1,37 @@
 .Cadastro{
-    height: 100%;
-    width: 100vw;
+    height: 100vw;
+    width: 100vw; 
+    max-width: 100vw;
+    max-height:100vw;
+    background-repeat: no-repeat;
+    background-size: 30vw;
+    margin-left: -20vw;
+    margin-top: 6vw;
+    
+}
+.background{
     display:flex; 
     align-items: center; 
+    background-image: url(/images/SakuraLoginFinal.png);
+    background-repeat: no-repeat;
+    background-size: 50vw;
+    width: 100vw;
     justify-content: center;
-    flex-direction: column;  
+    height: 40vw;
+    flex-direction: column; 
+}
+.background2{
+    background-image: url(/images/ramo-cerejeira.png);
+    background-repeat: no-repeat;
+    background-size: 22vw;
+    margin-left: 193.9vw;
 }
 .Cadastro .base{
-    width: 100vw;
+    max-width: 100vw;
+    padding-top: 0vw;
+    padding-left: 0vw;
+    padding-right: 120vw;
+    padding-bottom: 10vw;
     display:flex; 
     align-items: center; 
     justify-content: center;
@@ -16,49 +40,77 @@
 
 .Cadastro .container{
     align-items: center;
-    padding-top: 5%;
-    max-width: 100%;
+    padding-top: 5vw;
+    width: 100vw;
+    max-width: 100vw;
     display:flex; 
     justify-content: center;
     flex-direction: column; 
     padding-bottom: 50px;
+    padding-left: 30vw;
+}
+.containbook{
+    background-image: url(/images/LivroFinal2Cadastro.jpg);
+    background-repeat: no-repeat;
+    background-size: 40vw;
+    font-size: 1vw;
+    display: flex;
+    width: 100vw;
+    height: 30vw;
+    padding-right: 50vw;
+    padding-top: 0vw;
 }
 .Cadastro .book{
-    width: 500px;
+    width: 100vw;
 }
 .Cadastro .textbook{
     font-family: 'Quicksand';
     font-weight: 500;
+    font-size: small;
+    width: 150vw;
+    margin-left: 35vw;
+    font-size: 3vw;
+    height: 5vw;
 }
+
 .dados1{
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 1.3vw;
+    margin-left: 3vw;
+    resize: inherit;
     align-items: center;
     font-size: larger;
-
-}
-.containbook{
-    background-image: url(/images/LivroFinal2Cadastro.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 450px;
- 
+    font-family: 'Quicksand';
+    font-weight: 800;
 }
 .dados2{
-    margin-top: -365px;
-    margin-left: 330px;
+    margin-left: 2vw;
+    max-width: 90vw;
+    max-height: 90vw;
+    margin-top: 1.3vw;
     align-items: center;
+    font-family: 'Quicksand';
+    font-weight: 800;
     font-size: larger;
-
 }
 .posicaocaneta{
-    margin-left: 380px;
-    margin-top: -100px;
+    margin-left: -15vw;
+    margin-top: 6vw;
 }
 .caneta{
-    max-width: 350px;
-    max-height: 350px;
+    margin-top: 2vw;
+    max-width: 25vw;
+    max-height: 25vw;
     width: auto;
     height: auto;
+}
+@keyframes colors{
+    0% {
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
