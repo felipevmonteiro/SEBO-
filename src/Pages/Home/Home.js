@@ -6,15 +6,17 @@ import { render } from "react-dom";
 import Carousel from 'nuka-carousel';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { IconContext } from "react-icons";
-import Button from 'react-bootstrap/Button'
-require("typeface-quicksand");
+import { Badge } from 'react-bootstrap'
+require("typeface-quicksand")
 
 function Home(){
     const history = useHistory();
 
     return (
+      
       <>
-        <Carousel className="carousel"  autoplay={true} wrapAround={true} transactionMode={fade} slidesToScroll='auto' disableEdgeSwiping='fatruelse' cellAlign="center" renderCenterLeftControls={({ previousSlide }) => (
+        
+        <Carousel autoplay={false} cellAlign="center" renderCenterLeftControls={({ previousSlide }) => (
             <IconContext.Provider value={{color: "#ffff", size: "5.5rem"}}>
                 <IconButton onClick={ previousSlide}>
                     <IoIosArrowBack/>
@@ -62,7 +64,10 @@ function Home(){
               </Button>
             </div>
       </Carousel>
+
       <div className="section-2">
+        <h1 className="globalTitle">
+          Novidades da <Badge variant="secondary">semana</Badge></h1>
         <img alt="imagem" className="capa-imagem" src="/images/section-2.png"/>
       </div>
       
