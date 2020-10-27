@@ -13,7 +13,7 @@ function Routes(){
             <Switch>
                 <Route exact path="/cadastro" component={Cadastro} />   
                 <Route exact path="/login" component={Login} />
-                <Route exact path="/nossoslivros" component={NossosLivros} />
+                <Route path="/" component={userMenu} />
                 <Route exact path="/adicionarexemplar" component={AdicionarExemplar} />
                 <Route path="/" component={userMenu} />
             </Switch>
@@ -27,6 +27,8 @@ function userMenu(){
             <Switch>
                 <Route path="/home" component={Home} />
                 <Route path="/home" component={() => <Redirect to="/login"/>} />
+                <Route path="/nossoslivros" component={NossosLivros} />
+                <Route path="/nossoslivros" component={() => <Redirect to="/login"/>} />
             </Switch>
         </Menu>
     );

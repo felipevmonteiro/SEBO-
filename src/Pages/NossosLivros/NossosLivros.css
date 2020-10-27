@@ -1,0 +1,77 @@
+.NossosLivros .section-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.NossosLivros .section-2{
+    flex-direction: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    background-color: #733840;
+    margin-top: 25%;
+}
+
+.NossosLivros .imagem-right{
+    margin-left: 70%;
+    margin-top: -1%;
+    margin-bottom: 5%;
+    position: absolute;
+}
+
+.NossosLivros .container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.title{
+    font-family: 'Quicksand';
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    margin-top: 7%;
+}
+
+.subtitle{
+    font-family: 'Quicksand';
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    margin-top: 3%;
+}
+
+.search-left{
+    position: absolute;
+    transform: translate(50%, 400%);
+}
+
+.search-right{
+    position: absolute;
+    transform: translate(60%, 470%);
+    width: 400px;
+}
+
+.livro-carousel{
+    margin-top: 60%;
+    width: 180px;
+    height: 275px;
+}
+
+.livro-info{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    color: white;
+    display: flex;
+    margin-right: 8%;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.itens-carousel{
+    align-items: stretch;
+    flex: 1;
+	margin: 10px;
+	padding: 0 10px;
+}

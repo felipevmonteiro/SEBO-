@@ -28,7 +28,6 @@ function Home(){
                   </IconButton>
               </IconContext.Provider>
             )}
-            
             defaultControlsConfig={{
               pagingDotsStyle: {
                 fill: 'white'
