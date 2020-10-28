@@ -87,7 +87,7 @@
 
 .button{
     position: absolute;
-    background-color: white;
+    font-family: 'Quicksand';
     width: 224px;
     height: 54px;
 }
@@ -96,12 +96,14 @@
     top: 95%;
     left: 39%;
     transform: translate(-40%, -500%);
+    background-color:  #733840;
 }
 
 .right{
     top: 95%;
     left: 56%;
     transform: translate(-35%, -500%);
+    background-color: #ffff;
 }
 
 .center{
