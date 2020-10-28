@@ -1,3 +1,4 @@
+import Button from 'react-bootstrap/Button'
 import { colors, fade, IconButton  } from "@material-ui/core";
 import React from "react";
 import { useHistory } from "react-router-dom";
@@ -9,8 +10,15 @@ import { IconContext } from "react-icons";
 import { Badge } from 'react-bootstrap'
 require("typeface-quicksand")
 
+
 function Home(){
     const history = useHistory();
+    function cadastrese(){
+      history.push("Cadastro")
+    }
+    function livros(){
+      history.push("Nossoslivros")
+    }
 
     return (
       
@@ -41,7 +49,7 @@ function Home(){
               <h1 className="texto-principal globalTitle">Bem Vindo ao site</h1>
               <h1 className="subtexto globalTitle">do sebo</h1>
               <img alt="imagem" className="texto-imagem" src="/images/logo-branca.png"/>
-              <Button  className="button left" variant="dark">
+              <Button  className="button left" variant="dark" onClick = {cadastrese}>
                 Cadastre-se já!
               </Button>
               <Button className="button right" variant="light">
@@ -58,7 +66,7 @@ function Home(){
             <div className="content">
               <img alt="imagem" className="capa-imagem" src="/images/slide-3.jpg"/>
               <h1 className="texto globalTitle">Conheça nosso acervo:</h1>
-              <Button  className="button center" variant="light">
+              <Button  className="button center" variant="light" onClick = {livros}>
                 Nossos livros
               </Button>
             </div>
