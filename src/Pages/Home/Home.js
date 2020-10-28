@@ -7,7 +7,9 @@ import Carousel from 'nuka-carousel';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { IconContext } from "react-icons";
 import { Badge } from 'react-bootstrap'
+import Button from 'react-bootstrap/Button'
 require("typeface-quicksand")
+
 
 function Home(){
     const history = useHistory();

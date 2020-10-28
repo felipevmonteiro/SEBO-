@@ -2,6 +2,7 @@ import React from 'react'
 import "./cadastro.css"
 import {Form, FormGroup} from 'react-bootstrap' 
 import Button from 'react-bootstrap/Button' 
+import { formatMs } from '@material-ui/core'
 require('typeface-quicksand')
 
 function Cadastro() {
@@ -28,8 +29,14 @@ function Cadastro() {
                                     
                                     <Form.Group controlId="email"> 
                                         <Form.Label>Email</Form.Label> 
-                                        <Form.Control plaintext size="sm" placeholder="name@example.com.br" /> 
+                                        <Form.Control plaintext size="sm" placeholder="name@example.com.br"/> 
                                     </Form.Group> 
+
+                                    <Form.Group controlId="senha"> 
+                                        <Form.Label>Senha</Form.Label>
+                                        <Form.Control plaintext size="sm" placeholder="Senha"/>
+
+                                    </Form.Group>
                                     
                                     <Form.Group controlId="endereço"> 
                                         <Form.Label>Endereço</Form.Label> 
@@ -42,7 +49,7 @@ function Cadastro() {
                                 
                                     <Form.Group controlId="tcontato"> 
                                         <Form.Label>Telefone de contato</Form.Label> 
-                                        <Form.Control plaintext size="sm" placeholder="31992404607" /> 
+                                        <Form.Control plaintext size="sm" placeholder="(XX)9XXXX-XXXX" /> 
                                     </Form.Group>
                                     
                                     <Form.Group controlId="lfav"> 
@@ -54,6 +61,12 @@ function Cadastro() {
                                         <Form.Label>CEP</Form.Label> 
                                         <Form.Control plaintext size="sm" placeholder="00000-000" /> 
                                     </Form.Group>
+
+                                    <Form.Group> 
+                                         <Button  className="button" variant="danger" onClick={Cadastro}>Cadastrar!</Button> 
+                                    </Form.Group> 
+
+                                    
                                 </Form>
                                 <div className ="posicaocaneta">
                                     <img alt="imagem" src="/images/canetahaikai.png" className = "caneta"/>
