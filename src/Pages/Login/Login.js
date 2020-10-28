@@ -34,12 +34,14 @@ function Login(){
                             <Form className = "formtext"> 
                                 <Form.Group controlId="formBasicEmail"> 
                                     <Form.Label>Enter your email</Form.Label> 
-                                    <Form.Control type="email" placeholder="name@example.com" /> 
+                                    <Form.Control type="email" placeholder="name@example.com"
+                                    onChange = {(e) => setEmail(e.target.value)} /> 
                                 </Form.Group> 
             
                                 <Form.Group controlId="formBasicPassword"> 
                                     <Form.Label>Password</Form.Label> 
-                                    <Form.Control type="password" placeholder="Password" /> 
+                                    <Form.Control type="password" placeholder="Password"
+                                      onChange = {(e) => setPassword(e.target.value) } /> 
                                 </Form.Group> 
             
                                 <Form.Group controlId="formBasicCheckbox"> 
@@ -47,7 +49,7 @@ function Login(){
                                 </Form.Group> 
             
                                 <FormGroup> 
-                                    <Button  id="button" variant="danger" onClick={login}>Login</Button> 
+                                    <Button  className="button" variant="danger" onClick={login}>Login</Button> 
                                 </FormGroup> 
                             </Form> 
                             

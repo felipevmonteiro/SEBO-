@@ -46,7 +46,7 @@
     display:flex; 
     justify-content: center;
     flex-direction: column; 
-    padding-bottom: 50px;
+    padding-bottom: 6vw;
     padding-left: 30vw;
 }
 .containbook{
@@ -58,7 +58,6 @@
     width: 100vw;
     height: 30vw;
     padding-right: 50vw;
-    padding-top: 0vw;
 }
 .Cadastro .book{
     width: 100vw;
@@ -83,7 +82,7 @@
     font-weight: 800;
 }
 .dados2{
-    margin-left: 2vw;
+    margin-left: 7vw;
     max-width: 90vw;
     max-height: 90vw;
     margin-top: 1.3vw;
