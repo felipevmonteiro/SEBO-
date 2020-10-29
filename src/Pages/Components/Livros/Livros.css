@@ -1,0 +1,49 @@
+.livro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+	margin: 10px;
+    padding: 0 10px;
+}
+
+.img-format{
+    margin-top: 60%;
+    width: 180px;
+    height: 275px;
+}
+
+.titulo-livro{
+    font-family: 'Quicksand';
+    font-size: 22px;
+    font-weight: 500;
+    color: darkgray;
+    display: flex;
+    text-align: center;
+}
+
+.autor-livro{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    font-weight: 300;
+    color: darkgray;
+    display: flex;
+    text-align: center;
+}
+
+.ver-livro{
+    align-items: center;
+}
+
+.botao{
+    position: absolute;
+    font-family: 'Quicksand';
+    width: 110px;
+    height: 25px;
+}
+
+.format{
+    text-align: center;
+    line-height: 5%;
+    background-color:  #733840;
+}

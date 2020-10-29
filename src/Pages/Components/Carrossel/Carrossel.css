@@ -1,0 +1,76 @@
+.capa-imagem{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    position: relative;
+}
+
+.texto-principal{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 43%;
+    transform: translate(-35%, -180%);
+}
+
+.texto{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    text-align: center;
+}
+
+.subtexto{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 53%;
+    transform: translate(-110%, -90%);
+}
+
+.texto-imagem{
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    transform: translate(-125%, -90%);
+    height: 80px;
+    width: 286px;
+}
+
+.globalTitle{
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Quicksand';
+}
+
+.button{
+    position: absolute;
+    font-family: 'Quicksand';
+    width: 224px;
+    height: 54px;
+}
+
+.left{
+    top: 95%;
+    left: 39%;
+    transform: translate(-40%, -500%);
+    background-color:  #733840;
+}
+
+.right{
+    top: 95%;
+    left: 56%;
+    transform: translate(-35%, -500%);
+    background-color: #ffff;
+}
+
+.center{
+    top: 90%;
+    left: 50%;
+    transform: translate(-55%, -500%);
+}
