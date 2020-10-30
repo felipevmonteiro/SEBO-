@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Components/Footer/Footer";
 import GalleryLivros from "../Components/GalleryLivros/GalleryLivros";
 import Livros from "../Components/Livros/Livros";
 import "./NossosLivros.css";
@@ -37,6 +38,8 @@ function NossosLivros(){
                         <Livros/>
                     </div>
                 </div>
+
+                <Footer/>
             </div>
         </>
     );

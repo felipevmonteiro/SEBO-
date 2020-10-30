@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2C4D5;
+    align-items: left;
+}
+
+.text{
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    min-width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Quicksand';
+    color: white;
+}

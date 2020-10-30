@@ -17,12 +17,6 @@
     justify-content: center;
 }
 
-.section-5{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #F2C4D5;
-}
 
 .imagem{
     width: 100%;

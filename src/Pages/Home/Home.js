@@ -1,6 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import Carrossel from "../Components/Carrossel/Carrossel";
+import Footer from "../Components/Footer/Footer";
 import "./Home.css";
 require("typeface-quicksand");
 
@@ -23,9 +24,7 @@ function Home(){
         <img alt="imagem" className="imagem-right" height="485" width="466" src="/images/nossa-historia.png"/>
       </div>
 
-      <div className="section-5">
-        <img alt="imagem" className="imagem-left" height="306" width="306" src="/images/ramo-cerejeira-2.png"/>
-      </div>
+      <Footer/>
     </>
     );
 }
