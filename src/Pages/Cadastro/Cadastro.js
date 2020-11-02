@@ -2,12 +2,16 @@ import React from 'react'
 import "./cadastro.css"
 import {Form, FormGroup} from 'react-bootstrap' 
 import Button from 'react-bootstrap/Button' 
+import { useState } from 'react'
 require('typeface-quicksand')
 
 function Cadastro() {
     return(
     
         <div className="Cadastro">
+            <div className="button">
+                <Button variant="danger">Cadastrar!</Button>
+            </div>
             <div className ="background">
                 <div className = "background2">
                         <div className = "container">

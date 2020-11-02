@@ -120,3 +120,9 @@
     width: auto;
     height: auto;
 }
+.Cadastro .button{
+    font-family: 'Quicksand';
+    font-weight: bolder;
+    right:0;
+    bottom: 0;
+}
