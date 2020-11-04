@@ -2,12 +2,16 @@ import React from 'react'
 import "./cadastro.css"
 import {Form, FormGroup} from 'react-bootstrap' 
 import Button from 'react-bootstrap/Button' 
+import { useState } from 'react'
 require('typeface-quicksand')
 
 function Cadastro() {
     return(
     
         <div className="Cadastro">
+            <div className="button">
+                <Button variant="danger">Cadastrar!</Button>
+            </div>
             <div className ="background">
                 <div className = "background2">
                         <div className = "container">
@@ -19,25 +23,34 @@ function Cadastro() {
                             </h1>
 
                             <div className = "containbook">
-                                <Form className = "dados1">
-                                    
-                                    <Form.Group controlId="nome"> 
-                                        <Form.Label >Nome</Form.Label> 
-                                        <Form.Control plaintext size="sm" placeholder="Seu nome"/> 
-                                    </Form.Group> 
-                                    
-                                    <Form.Group controlId="email"> 
-                                        <Form.Label>Email</Form.Label> 
-                                        <Form.Control plaintext size="sm" placeholder="name@example.com.br" /> 
-                                    </Form.Group> 
-                                    
-                                    <Form.Group controlId="endereço"> 
-                                        <Form.Label>Endereço</Form.Label> 
-                                        <Form.Control plaintext size="sm" placeholder="Rua das flores, 100" /> 
-                                    </Form.Group>
-                                    
-                                </Form>
-                            
+                                <img 
+                                src="/images/LivroFinal2Cadastro.jpg">
+                                </img>
+                                <div className ="dados1aux">
+                                    <Form className = "dados1">
+                                        
+                                        <Form.Group controlId="nome"> 
+                                            <Form.Label >Nome</Form.Label> 
+                                            <Form.Control plaintext size="sm" placeholder="Seu nome"/> 
+                                        </Form.Group> 
+                                        
+                                        <Form.Group controlId="email"> 
+                                            <Form.Label>Email</Form.Label> 
+                                            <Form.Control plaintext size="sm" placeholder="name@example.com.br" /> 
+                                        </Form.Group> 
+                                        
+                                        <Form.Group controlId="senha"> 
+                                            <Form.Label>Senha</Form.Label> 
+                                            <Form.Control type = "password" plaintext size="sm" placeholder="Senha" /> 
+                                        </Form.Group>
+
+                                        <Form.Group controlId="senhaconf"> 
+                                            <Form.Label>Confirme sua senha</Form.Label> 
+                                            <Form.Control type = "password" plaintext size="sm" placeholder="Senha" /> 
+                                        </Form.Group>                                        
+                                    </Form>
+                                </div>    
+                                <div className = "dados2aux">
                                 <Form className = "dados2">
                                 
                                     <Form.Group controlId="tcontato"> 
@@ -54,7 +67,13 @@ function Cadastro() {
                                         <Form.Label>CEP</Form.Label> 
                                         <Form.Control plaintext size="sm" placeholder="00000-000" /> 
                                     </Form.Group>
+
+                                    <Form.Group controlId="endereço"> 
+                                            <Form.Label>Endereço</Form.Label> 
+                                            <Form.Control plaintext size="sm" placeholder="Rua das flores, 100" /> 
+                                    </Form.Group>
                                 </Form>
+                                </div>
                                 <div className ="posicaocaneta">
                                     <img alt="imagem" src="/images/canetahaikai.png" className = "caneta"/>
                                 </div>

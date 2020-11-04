@@ -5,7 +5,6 @@ import Button from 'react-bootstrap/Button'
 import "./Login.css"; 
 require("typeface-quicksand") 
  
- //#790c5a,#cc0e74,#e6739f
 function Login(){ 
     const [email,setEmail] = useState(); 
     const [password,setPassword] = useState(); 
