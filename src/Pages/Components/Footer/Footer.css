@@ -1,0 +1,20 @@
+.footer{
+    background-image: url(/images/ramo-cerejeira-2.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #F2C4D5;
+}
+.Text1{
+    margin-left: 30vw;
+}
+.TextG{
+    padding-top: 4vh;
+    font-family: 'Quicksand';
+    font-size: 2vw;
+    font-weight: 400;
+    color:white;
+    max-height: 100vh;
+}

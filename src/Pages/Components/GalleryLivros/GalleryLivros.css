@@ -1,0 +1,22 @@
+.livro-carousel{
+    margin-top: 60%;
+    width: 180px;
+    height: 275px;
+}
+
+.livro-info{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    color: white;
+    display: flex;
+    margin-right: 8%;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.itens-carousel{
+    align-items: stretch;
+    flex: 1;
+	margin: 10px;
+	padding: 0 10px;
+}

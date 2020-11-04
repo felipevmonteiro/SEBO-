@@ -1,113 +1,83 @@
 .section-2{
+    background-image: url("/images/section-2.png");
+    background-size:100vw;
+    background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height:100vh;
 }
 
 .section-3{
+    background-image: url("/images/livros/hai-kai.jpg");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 70vw 22vh; 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    height:100vh;
     background-color: #733840;
 }
 
 .section-4{
+    background-image: url(/images/nossa-historia.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 55vw 10vh; 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    height:100vh;
+    align-items: right;
 }
 
-.section-5{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #F2C4D5;
-}
 
-.capa-imagem{
+.imagem_background{
     width: 100%;
+    height: 45vw;
     background-position: center;
     background-size: cover;
 }
-
-.imagem-right{
-    margin-left: 55%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.imagem_book{
+    padding-top: 10vw;
+    height: 70vh;
+    padding-left: 70%;   
 }
 
-.imagem-left{
-    margin-right: 78%;
+.imagem_history{
+    padding-top: 5%;
+    height: 100vh;
+    padding-left: 50%;   
 }
 
-.content{
-    position: relative;
-
+.imagem_left{
+    padding-right: 78%;
 }
-
-.texto-principal{
-    position: absolute;
-    color: white;
-    top: 50%;
-    left: 43%;
-    transform: translate(-35%, -180%);
-}
-
-.texto{
-    position: absolute;
-    color: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -100%);
-    text-align: center;
-}
-
-.subtexto{
-    position: absolute;
-    color: white;
-    top: 50%;
-    left: 53%;
-    transform: translate(-110%, -90%);
-}
-
-.texto-imagem{
-    position: absolute;
-    top: 50%;
-    left: 78%;
-    transform: translate(-125%, -90%);
-    height: 80px;
-    width: 286px;
-}
-
-.globalTitle{
-    font-size: 80px;
-    font-weight: 600;
+.TitleS2{
+    padding-top: 2%;
     font-family: 'Quicksand';
+    font-weight: 400;
+}
+.TitleS3{
+    font-family: 'QuickSand';
+    font-weight: 400;
+    font-size: 4vw;
+    color:white;
+    padding-left: 3vw;
+    padding-top: 5vh;
 }
 
-.button{
-    position: absolute;
+.TextoLivro{
     font-family: 'Quicksand';
-    width: 224px;
-    height: 54px;
-}
+    font-size: 1.8vw;
+    color: white;
+    padding-right: 10vw;
+    margin-left: 10vw;
+    max-width: 60vw;
 
-.left{
-    top: 95%;
-    left: 39%;
-    transform: translate(-40%, -500%);
-    background-color:  #733840;
 }
-
-.right{
-    top: 95%;
-    left: 56%;
-    transform: translate(-35%, -500%);
-    background-color: #ffff;
-}
-
-.center{
-    top: 90%;
-    left: 50%;
-    transform: translate(-55%, -500%);
+.TitleS4{
+    font-family: 'Quicksand';
+    font-size: 4vw;
+    padding-top: 5vh;
+    padding-left: 5vw;
 }
