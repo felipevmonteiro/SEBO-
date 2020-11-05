@@ -28,7 +28,7 @@ function NossosLivros(){
                     </div>
                 </div>
                 <div className="section-2">
-                    <h1 className="subtitle">Em Promoção:</h1>
+                    <p className="subtitle">Em Promoção:</p>
                     <GalleryLivros/>
                 </div>
                 

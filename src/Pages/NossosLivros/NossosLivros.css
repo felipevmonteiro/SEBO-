@@ -3,15 +3,17 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
+    width: 100%;
 }
 
 .NossosLivros .section-2{
     flex-direction: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     position: relative;
     background-color: #733840;
     margin-top: 25%;
+    align-items: center;
+    min-height: 600px;
+    width: 100%;
 }
 
 .NossosLivros .section-3{
@@ -24,7 +26,7 @@
 }
 
 .NossosLivros .imagem-right{
-    margin-left: 70%;
+    margin-left: 69%;
     margin-top: -1%;
     margin-bottom: 5%;
     position: absolute;
@@ -36,10 +38,17 @@
     position: relative;
 }
 
-
 .NossosLivros .container{
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.subtitle{
+    font-family: 'Quicksand';
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-align: center;
 }
 
 .title{
@@ -50,13 +59,6 @@
     margin-top: 7%;
 }
 
-.subtitle{
-    font-family: 'Quicksand';
-    font-size: 50px;
-    color: white;
-    position: absolute;
-    margin-top: 3%;
-}
 
 .search-left{
     position: absolute;

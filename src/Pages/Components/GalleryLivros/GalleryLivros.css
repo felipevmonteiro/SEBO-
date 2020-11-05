@@ -1,5 +1,5 @@
 .livro-carousel{
-    margin-top: 60%;
+    margin-top: 5%;
     width: 180px;
     height: 275px;
 }
@@ -9,14 +9,16 @@
     font-size: 20px;
     color: white;
     display: flex;
-    margin-right: 8%;
     text-align: center;
-    align-items: flex-start;
+    min-height: 120px;
 }
 
 .itens-carousel{
-    align-items: stretch;
-    flex: 1;
-	margin: 10px;
-	padding: 0 10px;
+    align-items: center;
+	padding: 2.25% 2.25%;
+}
+
+.container {
+    align-items: center;
+    display: flex;
 }

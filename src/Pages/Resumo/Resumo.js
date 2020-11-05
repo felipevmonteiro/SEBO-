@@ -1,29 +1,36 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Footer from "../Components/Footer/Footer";
-import Livros from "../Components/Livros/Livros";
 import "./Resumo.css";
 
 require("typeface-quicksand");
 
-function Resumo(props){
+function Resumo( props ){
+    const [data, setData] = useState('');
+
+    useEffect(() => {
+        setData(props.location.state.livro)
+      }, []);
+
     return (
         <>
             <div className="resumo">
                     <div className="imagem-livro">
-                        <img className="img-format" src="images/livros/lua-nova.jpg"/>
+                        <div class="hover01">
+                            <img className="img-format" src={data.pathName}/>
+                        </div>
                     </div>
-
+                    
                     <div className="dados">
                         <div className="titulo-livro">
-                            Lua Nova
+                            {data.nome}
                         </div>
 
                         <div className="autor-livro">
-                            Sthephanie Meyer
+                            {data.autor}
                         </div>
 
                         <div className="descricao-livro">
-                            Lua Nova é um romance escrito por Stephenie Meyer para jovens adultos sobre vampiros. Foi originalmente publicado em 2006, tendo sido editado em Portugal em 2007 e no Brasil no dia 27 de setembro de 2008. Segundo volume da série Twilight, relata o afastamento de Bella e Edward.
+                            {data.descricao}
                         </div>
 
                         <div className="classificacao">
