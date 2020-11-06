@@ -1,4 +1,4 @@
-.section-2{
+.Home .section-2{
     background-image: url("/images/section-2.png");
     background-size:100vw;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
     height:100vh;
 }
 
-.section-3{
+.Home .section-3{
     background-image: url("/images/livros/hai-kai.jpg");
     background-repeat: no-repeat;
     background-size: 15%;
@@ -19,7 +19,7 @@
     background-color: #733840;
 }
 
-.section-4{
+.Home .section-4{
     background-image: url(/images/nossa-historia.png);
     background-repeat: no-repeat;
     background-size: 40%;

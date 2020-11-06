@@ -2,7 +2,7 @@ import React from "react";
 import "./GalleryLivros.css";
 
 function GalleryLivros(){
-    const livros = [
+    const livros_promocao = [
         {
             nome: "Livro: O Auto da Compadecida",
             autor: "Ariano Suassuna",
@@ -28,22 +28,20 @@ function GalleryLivros(){
             autor: "Ailton Krenak",
             pathName: "/images/livros/promocao/a-vida-nao-e-util.jpg",
         },
-        {
-            nome: "Livro: Vigadores - Guerra dos Reinos",
-            autor: "Aaron McGuiness",
-            pathName: "/images/livros/promocao/vingadores-guerra-dos-reinos.jpg",
-        },
+        
     ];
     return (
         <>
-            {livros.map((listItem) => {
-                return(
-                    <div className="itens-carousel">
-                        <img className="livro-carousel" src={listItem.pathName}/>
-                            <p className="livro-info">{listItem.nome} <br/> Autor: {listItem.autor}</p>
-                    </div>
-                );
-            })}
+            <div className="container">
+                {livros_promocao.map((listItem) => {
+                    return(
+                        <div className="itens-carousel">
+                            <img className="livro-carousel" src={listItem.pathName}/>
+                                <p className="livro-info">{listItem.nome} <br/> Autor: {listItem.autor}</p>
+                        </div>
+                    );
+                })}
+            </div>
         </>
     );
 }
