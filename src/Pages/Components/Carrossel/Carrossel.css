@@ -55,7 +55,6 @@
     font-family: 'Quicksand';
     font-size: 1.494vw;
     width: 15%;
-    height: 8%;
 }
 
 .left{
@@ -76,4 +75,8 @@
     top: 90%;
     left: 50%;
     transform: translate(-55%, -500%);
+}
+.historia{
+    background-color:  #733840;
+
 }

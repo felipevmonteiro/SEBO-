@@ -1,5 +1,4 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
 import Carrossel from "../Components/Carrossel/Carrossel";
 import Footer from "../Components/Footer/Footer";
 import "./Home.css";
@@ -7,14 +6,7 @@ require("typeface-quicksand");
 
 
 function Home(){
-    const history = useHistory();
-    function cadastrese(){
-      history.push("Cadastro")
-    }
-    function livros(){
-      history.push("Nossoslivros")
-    }
-
+ 
     return (
       
       <>
@@ -31,7 +23,7 @@ function Home(){
         </div>
 
         <div className="section-4">
-          <h1 className = "TitleS4">Conheça nossa História!</h1>
+          <h1 className = "TitleS4" id="historia"><br/>Conheça nossa História!</h1>
         </div>
       </div>
 

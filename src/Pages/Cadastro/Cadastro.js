@@ -1,16 +1,23 @@
 import React from 'react'
 import "./cadastro.css"
+import { useHistory } from 'react-router-dom' 
 import {Form, FormGroup} from 'react-bootstrap' 
 import Button from 'react-bootstrap/Button' 
 import { useState } from 'react'
 require('typeface-quicksand')
 
 function Cadastro() {
+    const history = useHistory(); 
+    const [nome,setNome] = useState();
+    function Home(){ 
+        alert("Bem vindo " +nome) 
+        history.push("Home") 
+    } 
     return(
     
         <div className="Cadastro">
             <div className="button">
-                <Button variant="danger">Cadastrar!</Button>
+                <Button variant="danger" onClick = {Home}>Cadastrar! </Button>
             </div>
             <div className ="background">
                 <div className = "background2">
@@ -31,7 +38,8 @@ function Cadastro() {
                                         
                                         <Form.Group controlId="nome"> 
                                             <Form.Label >Nome</Form.Label> 
-                                            <Form.Control plaintext size="sm" placeholder="Seu nome"/> 
+                                            <Form.Control plaintext size="sm" placeholder="Seu nome"
+                                            onChange = {(e) => setNome(e.target.value)}/> 
                                         </Form.Group> 
                                         
                                         <Form.Group controlId="email"> 

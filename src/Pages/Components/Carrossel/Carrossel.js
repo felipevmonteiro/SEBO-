@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { fade, IconButton  } from "@material-ui/core";
 import Carousel from 'nuka-carousel';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
@@ -10,6 +11,13 @@ require("typeface-quicksand");
 
 
 function Carrossel(){
+    const history = useHistory();
+    function cadastrese(){
+      history.push("Cadastro")
+    }
+    function livros(){
+      history.push("Nossoslivros")
+    }
     return (
             <Carousel className="carousel"  autoplay={false} wrapAround={true} transactionMode={fade} slidesToScroll='auto' disableEdgeSwiping='fatruelse' cellAlign="center" renderCenterLeftControls={({ previousSlide }) => (
                 <IconContext.Provider value={{color: "#ffff", size: "5vw"}}>
@@ -37,11 +45,11 @@ function Carrossel(){
                     <h1 className="subtexto globalTitle">do sebo</h1>
                     <img alt="imagem" className="texto-imagem" src="/images/logo-branca.png"/>
 
-                    <Button  className="button left" variant="dark">
+                    <Button  className="button left" variant="dark" onClick = {cadastrese}>
                         Cadastre-se já!
                     </Button>
 
-                    <Button className="button right" variant="light">
+                    <Button className="button right" variant="light" >
                         Doe um Exemplar
                     </Button>
                 </div>
@@ -49,15 +57,15 @@ function Carrossel(){
                 <div className="content">
                     <img alt="imagem" className="capa-imagem" src="/images/slide-2.png"/>
                     <h1 className="texto globalTitle">Conheça nossa história:</h1>
-                    <Button  className="button center" variant="light">
+                    <a href="#historia"  className="button center btn border btn-sm btn-dark historia"  variant="light" >
                         Nossa História
-                    </Button>
+                    </a>
                 </div>
                 
                 <div className="content">
                     <img alt="imagem" className="capa-imagem" src="/images/slide-3.jpg"/>
                     <h1 className="texto globalTitle">Conheça nosso acervo:</h1>
-                    <Button  className="button center" variant="light">
+                    <Button  className="button center" variant="light" onClick = {livros}>
                         Nossos livros
                     </Button>
                 </div>
