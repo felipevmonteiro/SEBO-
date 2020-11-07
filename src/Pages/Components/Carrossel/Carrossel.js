@@ -41,8 +41,8 @@ function Carrossel(){
                 
                 <div className="content">
                     <img alt="imagem" className="capa-imagem" src="/images/slide-1.png"/>
-                    <h1 className="texto-principal globalTitle">Bem Vindo ao site</h1>
-                    <h1 className="subtexto globalTitle">do sebo</h1>
+                    <h1 className="texto-principal globalTitle">Bem Vindo ao sebo</h1>
+
                     <img alt="imagem" className="texto-imagem" src="/images/logo-branca.png"/>
 
                     <Button  className="button left" variant="dark" onClick = {cadastrese}>

@@ -1,7 +1,10 @@
 .list{
     width: 260px;
 }
-
+.slider-frame{
+    width: 100vw;
+    height: 10vh;
+}
 .listItemText{
     color: #343434;
     margin-left: 16px;
