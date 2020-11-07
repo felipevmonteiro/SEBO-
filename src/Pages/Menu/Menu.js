@@ -49,7 +49,7 @@ function Menu(props){
 
     return (
         <>
-        <AppBar position="fixed">
+        <AppBar position="sticky">
             <Toolbar className="toolBar">
 
                 <IconButton edge="start" aria-label="menu" onClick={() => handleDrawer(!open)}>
