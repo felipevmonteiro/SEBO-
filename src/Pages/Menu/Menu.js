@@ -1,10 +1,18 @@
-import { Drawer, List, ListItem, ListItemText, Typography, AppBar, Toolbar, IconButton, Avatar } from "@material-ui/core";
+import { Drawer,
+        List, 
+        ListItem, 
+        ListItemText, 
+        Typography, 
+        AppBar, Toolbar, 
+        IconButton, 
+        Avatar } from "@material-ui/core";
 import React, { useState } from "react";
 import { MdHome, MdLibraryBooks, MdMenu, MdLaptop } from "react-icons/md"
 import { FaUser } from "react-icons/fa"
 import { IconContext } from "react-icons";
 import "./Menu.css";
 import { useHistory } from "react-router-dom";
+
 
 function Menu(props){
     const history = useHistory();
@@ -49,19 +57,24 @@ function Menu(props){
 
     return (
         <>
-        <AppBar position="fixed">
+        <AppBar position="sticky">
             <Toolbar className="toolBar">
+
                 <IconButton edge="start" aria-label="menu" onClick={() => handleDrawer(!open)}>
                     <MdMenu />
                 </IconButton>
+
                 <div className="logo">
-                    <img width="117" height="30" alt="imagem" src="/images/HaiKaiVetorized.png"/>
+                    <img width="200" height="45" alt="imagem" src="/images/HaiKaiVetorized.png"/>
                 </div>
+
                 <div className="userContainer">
                     <Avatar alt="User" src="/images/user.png" />
                 </div>
+
             </Toolbar>
         </AppBar>
+
         {props.children}
         <Drawer open = {open} onClose = {() => handleDrawer(false)}>
             <List className="list">

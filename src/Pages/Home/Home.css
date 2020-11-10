@@ -1,111 +1,136 @@
-.section-2{
+*{
+    max-width: 100vw;
+}
+.Home .section-2{
+    background-image: url("/images/section-2.png");
+    background-size:100vw;
+    background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height:100vh;
 }
 
-.section-3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #733840;
+.Home .TitleS2{
+    padding-top: 2%;
+    font-family: 'Quicksand';
+    font-weight: 400;
 }
 
-.section-4{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.section-5{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #F2C4D5;
-}
-
-.capa-imagem{
+.Home .imagem_background{
     width: 100%;
+    height: 45vw;
     background-position: center;
     background-size: cover;
 }
 
-.imagem-right{
-    margin-left: 55%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.Home .LivrosS2{
+    display: flex;
+    flex-direction: row;
+    max-width: 30vw;
 }
 
-.imagem-left{
-    margin-right: 78%;
+.Home .LivroWS2{
+    padding-top: 10vh;
+    width: 20vw;
+    height: 10vh;
 }
 
-.content{
-    position: relative;
-
+.Home .section-3{
+    background-image: url("/images/livros/hai-kai.jpg");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 70vw 22vh; 
+    display: flex;
+    flex-wrap: wrap;
+    height:100vh;
+    background-color: #733840;
 }
 
-.texto-principal{
-    position: absolute;
-    color: white;
-    top: 50%;
-    left: 43%;
-    transform: translate(-35%, -180%);
+
+.Home .TitleS3{
+    font-family: 'QuickSand';
+    font-weight: 400;
+    font-size: 4vw;
+    color:white;
+    padding-left: 3vw;
+    padding-top: 5vh;
 }
 
-.texto{
-    position: absolute;
-    color: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -100%);
-    text-align: center;
-}
-
-.subtexto{
-    position: absolute;
-    color: white;
-    top: 50%;
-    left: 53%;
-    transform: translate(-110%, -90%);
-}
-
-.texto-imagem{
-    position: absolute;
-    top: 50%;
-    left: 78%;
-    transform: translate(-125%, -90%);
-    height: 80px;
-    width: 286px;
-}
-
-.globalTitle{
-    font-size: 80px;
-    font-weight: 600;
+.Home .TextoLivroS3{
     font-family: 'Quicksand';
+    font-size: 1.Home .8vw;
+    color: white;
+    padding-right: 10vw;
+    margin-left: 10vw;
+    max-width: 60vw;
+
+}
+.Home .imagem_book{
+    padding-top: 10vw;
+    height: 70vh;
+    padding-left: 70%;   
 }
 
-.button{
-    position: absolute;
-    background-color: white;
-    width: 224px;
-    height: 54px;
+.Home .section-4{
+    background-image: url(/images/nossa-historia.Home .png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 55vw 10vh; 
+    display: flex;
+    flex-wrap: wrap;
+    height:100vh;
+    align-items: right;
 }
 
-.left{
-    top: 95%;
-    left: 39%;
-    transform: translate(-40%, -500%);
+.Home .imagem_history{
+    padding-top: 5%;
+    height: 100vh;
+    padding-left: 50%;   
 }
 
-.right{
-    top: 95%;
-    left: 56%;
-    transform: translate(-35%, -500%);
+.Home .TitleS4{
+    font-family: 'Quicksand';
+    font-size: 4vw;
+    padding-left: 5vw;
 }
 
-.center{
-    top: 90%;
-    left: 50%;
-    transform: translate(-55%, -500%);
+.Home .TextoHistoriaS4{
+    max-width: 50vw;
+    padding-left: 9vw;
+    font-size: 1.8vw;
 }
+
+@media only screen and (width < 800px){
+    /*for cellpes*/
+   .Home .section-2{
+       height: 35vh; 
+       background-position: bottom right;
+   }
+   .Home .TitleS2{
+       font-size: 6vw;
+   }
+   .Home .section-3{
+       height: 40vh;
+       background-size: 28%;
+       background-position: 65vw 10vh;
+   }
+   .Home .TextoLivroS3{
+       font-weight: 600;
+       font-size: 2.Home .3vw;
+   }
+   .Home .section-4{
+       height: 35vh;
+       background-size: 45%;
+       background-position: 50vw 10vh;
+   }
+   .Home .TitleS4{
+       padding-top: 2vh;
+   }
+   .Home .TextoHistoriaS4{
+       max-width: 51vw;
+       font-weight: 600;
+       font-size: 2.Home .2vw;
+   }
+
+    }

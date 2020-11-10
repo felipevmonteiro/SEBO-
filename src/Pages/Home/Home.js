@@ -1,82 +1,36 @@
-import { colors, fade, IconButton  } from "@material-ui/core";
 import React from "react";
-import { useHistory } from "react-router-dom";
+import Carrossel from "../Components/Carrossel/Carrossel";
+import Footer from "../Components/Footer/Footer";
+import Livros from "../Components/Livros/Livros"
+import GalleryLivros from "../Components/GalleryLivros/GalleryLivros";
 import "./Home.css";
-import { render } from "react-dom";
-import Carousel from 'nuka-carousel';
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import { IconContext } from "react-icons";
-import Button from 'react-bootstrap/Button'
 require("typeface-quicksand");
 
+
 function Home(){
-    const history = useHistory();
-
+ 
     return (
-      <>
-        <Carousel className="carousel"  autoplay={true} wrapAround={true} transactionMode={fade} slidesToScroll='auto' disableEdgeSwiping='fatruelse' cellAlign="center" renderCenterLeftControls={({ previousSlide }) => (
-            <IconContext.Provider value={{color: "#ffff", size: "5.5rem"}}>
-                <IconButton onClick={ previousSlide}>
-                    <IoIosArrowBack/>
-                </IconButton>
-            </IconContext.Provider>
-              )}
-            renderCenterRightControls={({ nextSlide }) => (
-              <IconContext.Provider value={{color: "#ffff", size: "5.5rem"}}>
-                  <IconButton onClick={ nextSlide }>
-                      <IoIosArrowForward/>
-                  </IconButton>
-              </IconContext.Provider>
-            )}
-            
-            defaultControlsConfig={{
-              pagingDotsStyle: {
-                fill: 'white'
-              }
-            }}>
-            
-            <div className="content">
-              <img alt="imagem" className="capa-imagem" src="/images/slide-1.png"/>
-              <h1 className="texto-principal globalTitle">Bem Vindo ao site</h1>
-              <h1 className="subtexto globalTitle">do sebo</h1>
-              <img alt="imagem" className="texto-imagem" src="/images/logo-branca.png"/>
-              <Button  className="button left" variant="dark">
-                Cadastre-se já!
-              </Button>
-              <Button className="button right" variant="light">
-                Doe um Exemplar
-              </Button>
-            </div>
-            <div className="content">
-              <img alt="imagem" className="capa-imagem" src="/images/slide-2.png"/>
-              <h1 className="texto globalTitle">Conheça nossa história:</h1>
-              <Button  className="button center" variant="light">
-                Nossa História
-              </Button>
-            </div>
-            <div className="content">
-              <img alt="imagem" className="capa-imagem" src="/images/slide-3.jpg"/>
-              <h1 className="texto globalTitle">Conheça nosso acervo:</h1>
-              <Button  className="button center" variant="light">
-                Nossos livros
-              </Button>
-            </div>
-      </Carousel>
-      <div className="section-2">
-        <img alt="imagem" className="capa-imagem" src="/images/section-2.png"/>
-      </div>
       
-      <div className="section-3">
-        <img alt="imagem" className="imagem-right" height="284" width="199" src="/images/livros/hai-kai.jpg"/>
-      </div>
+      <>
+      <Carrossel/>
+        <div className="Home">
+          <div className="section-2">
+            <h1 className="TitleS2"><span class="badge badge-danger">Novidades</span> da semana</h1>  
+          </div>
+          
+          <div className="section-3">
+            <h1 className="TitleS3">Livro em <span class="badge badge-danger">destaque</span> da semana!</h1>
+            <p className ="TextoLivroS3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel quam et nunc sollicitudin ullamcorper quis eget ante. Mauris sed magna non enim placerat imperdiet sit amet id ante. Maecenas dignissim metus quis laoreet mollis. Praesent viverra suscipit erat non cursus. Aliquam tellus orci, aliquam sit amet sem eu, tempus viverra orci. Quisque cursus pharetra metus non tincidunt. Aenean placerat elementum lorem, sit amet placerat lorem cursus sit amet. Curabitur pulvinar augue tellus, sit amet faucibus nulla volutpat eu.</p>
+            
+          </div>
 
-      <div className="section-4">
-        <img alt="imagem" className="imagem-right" height="485" width="466" src="/images/nossa-historia.png"/>
-      </div>
+          <div className="section-4">
+            <h1 className = "TitleS4" id="historia"><br/>Conheça nossa História!</h1>
+            <p className ="TextoHistoriaS4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel quam et nunc sollicitudin ullamcorper quis eget ante. Mauris sed magna non enim placerat imperdiet sit amet id ante. Maecenas dignissim metus quis laoreet mollis. Praesent viverra suscipit erat non cursus. Aliquam tellus orci, aliquam sit amet sem eu, tempus viverra orci. Quisque cursus pharetra metus non tincidunt. Aenean placerat elementum lorem, sit amet placerat lorem cursus sit amet. Curabitur pulvinar augue tellus, sit amet faucibus nulla volutpat eu.</p>
+          </div>
+        </div>
 
-      <div className="section-5">
-        <img alt="imagem" className="imagem-left" height="306" width="306" src="/images/ramo-cerejeira-2.png"/>
-      </div>
+      <Footer/>
     </>
     );
 }
