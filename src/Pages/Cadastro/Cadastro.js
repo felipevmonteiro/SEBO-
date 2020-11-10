@@ -35,7 +35,6 @@ function Cadastro() {
                                 </img>
                                 <div className ="dados1aux">
                                     <Form className = "dados1">
-                                        
                                         <Form.Group controlId="nome"> 
                                             <Form.Label >Nome</Form.Label> 
                                             <Form.Control plaintext size="sm" placeholder="Seu nome"

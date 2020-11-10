@@ -126,3 +126,8 @@
     right:0;
     bottom: 0;
 }
+
+@media only screen and (width < 800px){
+   
+
+}

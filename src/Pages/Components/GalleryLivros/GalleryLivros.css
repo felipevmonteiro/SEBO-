@@ -1,12 +1,15 @@
+
 .livro-carousel{
-    margin-top: 5%;
-    height: 275px;
+    padding-top: 5%;
+    width: 14vw;
+    height: 50vh;
 }
 
 .livro-info{
     font-family: 'Quicksand';
-    font-size: 20px;
-    color: white;
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #722f37;;
     display: flex;
     text-align: center;
     align-items: center;
@@ -29,4 +32,10 @@
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+@media only screen and (width < 800px){
+    .livro-carousel{
+        height: 20vh;
+    }
 }

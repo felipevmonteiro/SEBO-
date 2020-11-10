@@ -23,15 +23,13 @@ function Login(){
                 src="/images/SakuraLoginFinal.png "/> 
                 
                 <div className="container"> 
-
                     <div    className = "within">
-
                     <img src = "images/HaiKaiVetorized.png" 
                     className = "HaiKai" /> 
                         <div id = "form">
 
                             <Form className = "formtext"> 
-                                <Form.Group controlId="formBasicEmail"> 
+                                <Form.Group className = "forPhone" controlId="formBasicEmail"> 
                                     <Form.Label>Enter your email</Form.Label> 
                                     <Form.Control type="email" placeholder="name@example.com"
                                     onChange = {(e) => setEmail(e.target.value)} /> 
