@@ -43,6 +43,7 @@
 .Login .button{ 
     width: 17vw; 
 } 
+
  
 .Login .input{ 
     margin-left: 16px; 
@@ -52,6 +53,7 @@
     font-family: 'Quicksand';
     font-weight: 400;
 }
+
 @keyframes colors{
     0% {
         background-position: 0% 50%;

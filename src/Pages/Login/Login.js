@@ -14,7 +14,6 @@ function Login(){
         alert("Bem vindo \n" + email) 
         history.push("Home") 
     } 
- 
     return( 
         <div className = "Login">
             <div className ="base"> 
@@ -46,9 +45,14 @@ function Login(){
                                 </Form.Group> 
             
                                 <FormGroup> 
-                                    <Button  className="button" variant="danger" onClick={login}>Login</Button> 
+                                    <Button  className="button" variant="danger" onClick={login}>Login</Button>
                                 </FormGroup> 
+                                
+                              
+                               
+                               
                             </Form> 
+
                             
                         </div>
                     </div>
