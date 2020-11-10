@@ -14,6 +14,9 @@ function Login(){
         alert("Bem vindo \n" + email) 
         history.push("Home") 
     } 
+    function cadastre(){
+        history.push("Cadastro")
+    }
     return( 
         <div className = "Login">
             <div className ="base"> 
@@ -34,7 +37,7 @@ function Login(){
                                     onChange = {(e) => setEmail(e.target.value)} /> 
                                 </Form.Group> 
             
-                                <Form.Group controlId="formBasicPassword"> 
+                                <Form.Group className = "forPhone" controlId="formBasicPassword"> 
                                     <Form.Label>Password</Form.Label> 
                                     <Form.Control type="password" placeholder="Password"
                                       onChange = {(e) => setPassword(e.target.value) } /> 
@@ -52,7 +55,10 @@ function Login(){
                                
                                
                             </Form> 
-
+                            <div className="perg">
+                                 <Form.Label>Não possui Login?</Form.Label>
+                                <Button variant="dark" className="botao2"onClick={cadastre}>Cadastre-se</Button>
+                            </div>
                             
                         </div>
                     </div>

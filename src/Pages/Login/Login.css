@@ -43,6 +43,15 @@
 .Login .button{ 
     width: 17vw; 
 } 
+.perg{
+    width: 17vw;
+    padding-top: 4vw;
+  
+}
+.botao2{
+    width: 17vw;
+
+}
 
  
 .Login .input{ 
@@ -94,7 +103,9 @@
         width: 50vw;
     }
     .Login .container{
-        margin-top: -25vh;
+        margin-top: -10vh;
+        position: absolute;
+        margin-left: 25vw;
     }
     .Login .button{ 
         margin-bottom: 35vh;
@@ -102,4 +113,17 @@
         height: 6vh;
         font-size: 5vw;
     }
+    .Login .perg{
+        width: 25vw;
+        padding-top: 20vw;
+        
+    }
+    .Login .botao2{
+        width: 50vw;   
+    }
+    .Login .forPhone{
+        width: 50vw;
+    }
+   
+    
 }
