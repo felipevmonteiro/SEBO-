@@ -1,7 +1,7 @@
 *{
     max-width: 100vw;
 }
-.section-2{
+.Home .section-2{
     background-image: url("/images/section-2.png");
     background-size:100vw;
     background-repeat: no-repeat;
@@ -11,32 +11,32 @@
     height:100vh;
 }
 
-.TitleS2{
+.Home .TitleS2{
     padding-top: 2%;
     font-family: 'Quicksand';
     font-weight: 400;
 }
 
-.imagem_background{
+.Home .imagem_background{
     width: 100%;
     height: 45vw;
     background-position: center;
     background-size: cover;
 }
 
-.LivrosS2{
+.Home .LivrosS2{
     display: flex;
     flex-direction: row;
     max-width: 30vw;
 }
 
-.LivroWS2{
+.Home .LivroWS2{
     padding-top: 10vh;
     width: 20vw;
     height: 10vh;
 }
 
-.section-3{
+.Home .section-3{
     background-image: url("/images/livros/hai-kai.jpg");
     background-repeat: no-repeat;
     background-size: 15%;
@@ -48,7 +48,7 @@
 }
 
 
-.TitleS3{
+.Home .TitleS3{
     font-family: 'QuickSand';
     font-weight: 400;
     font-size: 4vw;
@@ -57,23 +57,23 @@
     padding-top: 5vh;
 }
 
-.TextoLivroS3{
+.Home .TextoLivroS3{
     font-family: 'Quicksand';
-    font-size: 1.8vw;
+    font-size: 1.Home .8vw;
     color: white;
     padding-right: 10vw;
     margin-left: 10vw;
     max-width: 60vw;
 
 }
-.imagem_book{
+.Home .imagem_book{
     padding-top: 10vw;
     height: 70vh;
     padding-left: 70%;   
 }
 
-.section-4{
-    background-image: url(/images/nossa-historia.png);
+.Home .section-4{
+    background-image: url(/images/nossa-historia.Home .png);
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: 55vw 10vh; 
@@ -83,19 +83,19 @@
     align-items: right;
 }
 
-.imagem_history{
+.Home .imagem_history{
     padding-top: 5%;
     height: 100vh;
     padding-left: 50%;   
 }
 
-.TitleS4{
+.Home .TitleS4{
     font-family: 'Quicksand';
     font-size: 4vw;
     padding-left: 5vw;
 }
 
-.TextoHistoriaS4{
+.Home .TextoHistoriaS4{
     max-width: 50vw;
     padding-left: 9vw;
     font-size: 1.8vw;
@@ -103,34 +103,34 @@
 
 @media only screen and (width < 800px){
     /*for cellpes*/
-   .section-2{
+   .Home .section-2{
        height: 35vh; 
        background-position: bottom right;
    }
-   .TitleS2{
+   .Home .TitleS2{
        font-size: 6vw;
    }
-   .section-3{
+   .Home .section-3{
        height: 40vh;
        background-size: 28%;
        background-position: 65vw 10vh;
    }
-   .TextoLivroS3{
+   .Home .TextoLivroS3{
        font-weight: 600;
-       font-size: 2.3vw;
+       font-size: 2.Home .3vw;
    }
-   .section-4{
+   .Home .section-4{
        height: 35vh;
        background-size: 45%;
        background-position: 50vw 10vh;
    }
-   .TitleS4{
+   .Home .TitleS4{
        padding-top: 2vh;
    }
-   .TextoHistoriaS4{
+   .Home .TextoHistoriaS4{
        max-width: 51vw;
        font-weight: 600;
-       font-size: 2.2vw;
+       font-size: 2.Home .2vw;
    }
 
     }
