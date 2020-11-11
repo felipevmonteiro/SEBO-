@@ -1,6 +1,6 @@
 .footer{
     background-image: url(/images/ramo-cerejeira-2.png);
-    background-size: 25%;
+    background-size: 14%;
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
@@ -8,27 +8,72 @@
     background-color: #F2C4D5;
 }
 .Text1{
-    margin-left: 30vw;
+    margin-left: 25vw;
+}
+.Text2{
+    padding-left: 8vw;
+}
+.Text3{
+    padding-left: 8vw;
 }
 .TextG{
     padding-top: 4vh;
     font-family: 'Quicksand';
-    font-size: 2vw;
+    font-size: 1.3vw;
     font-weight: 400;
-    color:#722f37;
+    color:black;
     max-height: 100vh;
+}
+.TextG1{
+    padding-top: 1vh;
+    font-family: 'Quicksand';
+    font-size: 1.3vw;
+    font-weight: 400;
+    color:black;
+    max-height: 100vh;
+}
+.historia{
+    background-color:  #733840;
+}
+.LinkF{
+    color: black;
+    font-family: 'Quicksand';
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-decoration: underline;
 }
 @media only screen and (width < 800px){
     /* for cellphones*/
     .footer{
-        height: 25vh;
-        max-height: 30vh;
+        height: 17vh;
+        background-size: 30%;
     }
     .Text1{
-        margin-left: 9vw;
+        margin-left: 6vw;
     }
     .TextG{
         color: #722f37;
         font-size: 2.5vw;
+    }
+    .TextG1{
+        padding-top: 1vh;
+        font-family: 'Quicksand';
+        font-size: 2.2vw;
+        font-weight: 400;
+        color:black;
+        max-height: 100vh;
+    }
+    .LinkF{
+        color: black;
+        font-family: 'Quicksand';
+        font-size: 2.2vw;
+        font-weight: 400;
+        text-decoration: underline;
+    }
+    .Text2{
+        padding-left: 3vw;
+    }
+    .Text3{
+        padding-left: 3vw;
     }
 }

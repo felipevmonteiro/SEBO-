@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom'
 import {Form, FormGroup, Modal} from 'react-bootstrap' 
 import Button from 'react-bootstrap/Button' 
 import { useState } from 'react'
+import Upload from "../Components/UploadPhoto/Upload"
 require('typeface-quicksand')
 
 
@@ -51,13 +52,12 @@ return(
                                             <input type="text" />
                                         </td>
                                         <td>
-                                            <textarea rows="10" />
+                                            <textarea rows="11" />
                                         </td>
                                         <td>
-                                            <label for ="arquivo"> Selecionar
-                                            </label>
-                                            <input type="file" name="arquivo" id="arquivo"/>
-
+                                            <div>
+                                            <Upload />
+                                            </div> 
                                         </td>
                                         <td>
                                         <Button variant="dark" onClick = {Home}>Adicionar exemplar!</Button>

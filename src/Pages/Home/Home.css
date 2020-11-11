@@ -46,8 +46,6 @@
     height:100vh;
     background-color: #733840;
 }
-
-
 .Home .TitleS3{
     font-family: 'QuickSand';
     font-weight: 400;
@@ -59,7 +57,7 @@
 
 .Home .TextoLivroS3{
     font-family: 'Quicksand';
-    font-size: 1.Home .8vw;
+    font-size: 1.8vw;
     color: white;
     padding-right: 10vw;
     margin-left: 10vw;
@@ -73,7 +71,7 @@
 }
 
 .Home .section-4{
-    background-image: url(/images/nossa-historia.Home .png);
+    background-image: url(/images/nossa-historia.png);
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: 55vw 10vh; 
@@ -117,7 +115,7 @@
    }
    .Home .TextoLivroS3{
        font-weight: 600;
-       font-size: 2.Home .3vw;
+       font-size: 2.3vw;
    }
    .Home .section-4{
        height: 35vh;
@@ -130,7 +128,7 @@
    .Home .TextoHistoriaS4{
        max-width: 51vw;
        font-weight: 600;
-       font-size: 2.Home .2vw;
+       font-size: 2.2vw;
    }
 
     }
