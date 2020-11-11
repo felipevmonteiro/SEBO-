@@ -76,7 +76,8 @@
     position: absolute;
     width: 50%;
     left: 0;
-    padding-left: 28%;
+    padding-left: 30%;
+    height: 10vh;
 }
 .dados2aux{
     position: absolute;
