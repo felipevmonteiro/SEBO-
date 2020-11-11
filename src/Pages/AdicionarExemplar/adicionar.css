@@ -7,7 +7,7 @@
     overflow-x: hidden; 
     overflow-y: hidden; 
 }
-.background{
+.AdicionarEx .background{
     display:flex; 
     align-items: center; 
     background-image: url(/images/SakuraLoginFinal.png);
@@ -19,7 +19,7 @@
     flex-direction: column; 
     background-position: -40% bottom;
 }
-.background2{
+.AdicionarEx .background2{
     background-image: url(/images/ramo-cerejeira.png);
     background-position: right top;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@
     right:0;
     bottom: 0;
 }
-textarea{
+.AdicionarEx textarea{
     height: 8vw !important; 
     resize: none; 
 }
