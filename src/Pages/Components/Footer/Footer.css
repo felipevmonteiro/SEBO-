@@ -42,10 +42,16 @@
     font-weight: 400;
     text-decoration: underline;
 }
+.sakuraFooter{
+    margin-left: 10vw;
+    height: 25vh; 
+}
+
 @media only screen and (width < 800px){
     /* for cellphones*/
     .footer{
-        height: 17vh;
+        background-image: url(/images/rosa.png);
+        height: 20vh;
         background-size: 30%;
     }
     .Text1{
@@ -74,6 +80,13 @@
         padding-left: 3vw;
     }
     .Text3{
-        padding-left: 3vw;
+        padding-left: 5vw;
+    }
+    .sakuraFooter{
+        position: absolute;
+        margin-top: 3vh;
+        margin-left:3vw;
+        width: 18vw;
+        height: 15vh;
     }
 }

@@ -79,7 +79,7 @@
     transform: translate(-55%, -500%);
 }
 .historia{
-    background-color:  #733840;
+    background-color:  rgb(255, 255, 255);
 }
 @media only screen and (width < 800px){
     /*for cellphone*/

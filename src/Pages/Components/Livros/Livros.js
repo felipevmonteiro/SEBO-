@@ -9,6 +9,7 @@ const livros = [
         autor: "Ariano Suassuna",
 		categoria: "Clássicos da Literatura Brasileira",
         descricao: "O Auto da Compadecida consegue o equilíbrio perfeito entre a tradição popular e a elaboração literária ao recriar para o teatro episódios registrados na tradição popular do cordel. É uma peça teatral em forma de Auto em 3 atos, escrita em 1955 pelo autor paraibano Ariano Suassuna. Sendo um drama do Nordeste brasileiro, mescla elementos como a tradição da literatura de cordel, a comédia, traços do barroco católico brasileiro e, ainda, cultura popular e tradições religiosas.",
+        comment: "Esse livro é o suprassumo da crítica social",
         pathName: "/images/livros/auto-da-compadecida.jpg",
     },
     {
@@ -16,6 +17,7 @@ const livros = [
         autor: "George Orwell",
         categoria: "Ficção",
         descricao: "Verdadeiro clássico moderno, concebido por um dos mais influentes escritores do século XX, A revolução dos bichos é uma fábula sobre o poder. Narra a insurreição dos animais de uma granja contra seus donos. Progressivamente, porém, a revolução degenera numa tirania ainda mais opressiva que a dos humanos.",
+        comment: "Esse ai é livro de comunista safado",
         pathName: "/images/livros/revolucao-dos-bichos.jpg",
     },
     {

@@ -57,9 +57,9 @@ function Carrossel(){
                 <div className="content">
                     <img alt="imagem" className="capa-imagem" src="/images/slide-2.png"/>
                     <h1 className="texto globalTitle">Conheça nossa história:</h1>
-                    <a href="#historia"  className="button center btn border btn-sm btn-light historia"  variant="light" >
+                    <Button href="#historia"  className="button center"  variant="light" >
                         Nossa História
-                    </a>
+                    </Button>
                 </div>
                 
                 <div className="content">

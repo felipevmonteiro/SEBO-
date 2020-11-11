@@ -29,6 +29,9 @@ function Footer(){
                         (31) 3104-7111
                     </h4>
                 </div>
+                <div className ="HaiKaiSakura">
+                    <img className ="sakuraFooter" src="../images/logo-footer.png" />
+                </div>
             </div>
         </>
     );

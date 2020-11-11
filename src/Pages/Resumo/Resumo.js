@@ -25,6 +25,7 @@ function Resumo( props ){
                     <div className="dados">
                         <div className="titulo-livro">
                             {data.nome}
+                            
                         </div>
 
                         <div className="autor-livro">
@@ -36,7 +37,7 @@ function Resumo( props ){
                         </div>
 
                         <div className="classificacao">
-                         <Comments />
+                            <Comments comment={data.comment} />
                         </div>
                     </div>
             </div>
