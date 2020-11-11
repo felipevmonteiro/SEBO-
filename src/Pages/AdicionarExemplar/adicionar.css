@@ -15,7 +15,7 @@
     background-size: 50vw;
     width: 100vw;
     justify-content: center;
-    height: 100vh;
+    height: 89vh;
     flex-direction: column; 
     background-position: -40% bottom;
 }
@@ -44,20 +44,8 @@
     justify-content: center;
     flex-direction: column; 
 }
-.containbook{
-    position: relative;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: auto;
-    height: auto;
-    margin-right: 20vw;
-    padding-left: 27%;
-}
-.AdicionarEx .book{
-    width: 100vw;
-}
+
+
 .AdicionarEx .textbook{
     font-family: 'Quicksand';
     font-weight: 500;
@@ -65,49 +53,32 @@
     padding-left: -5%;
     right: 0;
     padding-right: 0;
-    padding-top: 2%;
-    font-size: 2rem;
-    height: 5vw;
+    padding-top: 0.1%;
+    font-size: 3rem;
 }
-.dados1aux{
-    position: absolute;
-    width: 50%;
-    left: 0;
-    padding-left: 28%;
-}
-.dados2aux{
-    position: absolute;
-    width: 50%;
-    left:50%;
-    padding-left: 5%;
-}
-.dados1{
-    padding-top: 1.3vw;
-    padding-left: 3vw;
-    resize: inherit;
-    align-items: center;
-    font-size: larger;
-    font-family: 'Quicksand';
-    font-weight: 800;
-    font-size: 1.2rem;
-    width: auto;
-    height: auto;
-}
-.dados2{
-    position: absolute;
-    margin-left: 7vw;
-    max-width: 90vw;
-    max-height: 90vw;
-    margin-top: 1.3vw;
-    align-items: center;
-    font-family: 'Quicksand';
-    font-weight: 800;
-    font-size: 1.2rem;
-}
+
 
 .AdicionarEx .button{
     font-family: 'Quicksand';
     font-weight: bolder;
     right:0;
     bottom: 0;
+}
+textarea{
+    height: 8vw !important; 
+    resize: none; 
+}
+.AdicionarEx input[type="file"]{
+ display: none;
+}
+.AdicionarEx label{
+    background-color:#f8f1f4;
+    color: #0f0e0e;
+    text-align: center;
+    display: inline;
+    margin-left: 0.5vw;
+}
+@media only screen and (width < 800px){
+    /*for cellpes*/
+
 }

@@ -78,6 +78,9 @@
     left: 50%;
     transform: translate(-55%, -500%);
 }
+.historia{
+    background-color:  #733840;
+}
 @media only screen and (width < 800px){
     /*for cellphone*/
 
@@ -125,5 +128,8 @@
         padding-top: 0.4vh;
         top:100%;
         transform: translate(-50%, -500%);
+    }
+    .historia{
+        background-color: #733840;
     }
 }
