@@ -36,5 +36,17 @@
 .logo{
     display: flex;
     align-items: center;
+    padding: 0.5%;
 }
 
+.ico{
+    width: 117px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 800px){
+    .ico{
+        width: 20%;
+        height: 20%;
+    }
+}

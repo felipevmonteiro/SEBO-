@@ -57,7 +57,7 @@ function Menu(props){
 
     return (
         <>
-        <AppBar position="sticky">
+        <AppBar position="fixed">
             <Toolbar className="toolBar">
 
                 <IconButton edge="start" aria-label="menu" onClick={() => handleDrawer(!open)}>
@@ -65,7 +65,7 @@ function Menu(props){
                 </IconButton>
 
                 <div className="logo">
-                    <img width="200" height="45" alt="imagem" src="/images/HaiKaiVetorized.png"/>
+                    <img className="ico" alt="imagem" src="/images/HaiKaiVetorized.png"/>
                 </div>
 
                 <div className="userContainer">

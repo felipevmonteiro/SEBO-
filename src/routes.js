@@ -14,6 +14,9 @@ function Routes(){
             <Switch>
                 <Route path="/" component={userMenu} />   
             </Switch>
+            <Route exact path="/">
+                <Redirect to="/home" />
+            </Route>
         </BrowserRouter> 
     );
 }

@@ -1,15 +1,12 @@
-
 .livro-carousel{
-    padding-top: 5%;
-    width: 14vw;
-    height: 50vh;
+    margin-top: 5%;
+    height: 275px;
 }
 
 .livro-info{
     font-family: 'Quicksand';
-    font-weight: 700;
-    font-size: 1.5vw;
-    color: #722f37;;
+    font-size: 20px;
+    color: darkgray;
     display: flex;
     text-align: center;
     align-items: center;
@@ -34,8 +31,22 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
-@media only screen and (width < 800px){
-    .livro-carousel{
-        height: 20vh;
+.hover01 img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover01 img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media (max-width: 800px){
+    .livro-info{
+        font-size: 1.1rem;
+        min-height: 60px;
     }
+
 }

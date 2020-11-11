@@ -2,10 +2,8 @@
     position: relative;
     background-image: url(/images/ramo-cerejeira-3.png);
     background-repeat: no-repeat;
-    background-image: url(/images/ramo-cerejeira-3.png);
-    background-repeat: no-repeat;
     background-position-x: 100%;
-    background-position-y: -6%;
+    background-position-y: -3.3%;
     background-size: 35%;
 }
 
@@ -61,7 +59,7 @@
     display: flex;
     flex-direction: row;
     flex: 1;
-	margin-left: 18%;
+    margin-left: 18%;
 }
 
 .input-right{
@@ -92,11 +90,27 @@
     font-family: 'Quicksand';
     color: #cccccc;
     width:385px;
-    height:35px;
+    height:32px;
     border-radius:1px;
     border:0px solid #cccccc;
 }
 
-@media (max-width: 430px){
+@media (max-width: 800px){
+    .NossosLivros{
+        background-image: url(/images/branco.png);
+    }
 
+    .inputs{
+        margin-left: 0%;
+        padding: 1%;
+    }
+
+    .subtitle{
+        font-size: 2.1rem;
+    }
+    
+    .title{
+        padding-top: 5%;
+        font-size: 2.1rem;
+    }
 }

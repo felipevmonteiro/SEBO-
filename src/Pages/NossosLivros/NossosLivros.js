@@ -25,6 +25,7 @@ function NossosLivros(){
                                     <option>Infantil</option>
                                     <option>Clássicos da Literatura Brasileira</option>
                                     <option>Clássicos da Literatura Mundial</option>
+                                    <option>Literatura Oriental</option>
                                 </select>
                             </div>
                         </div>

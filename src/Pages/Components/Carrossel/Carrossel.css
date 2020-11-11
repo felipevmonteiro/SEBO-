@@ -59,8 +59,9 @@
 }
 
 .left{
-    top: 95%;
+    top: 97%;
     left: 39%;
+    height: 52px;
     transform: translate(-40%, -500%);
     background-color:  #733840;
 }
@@ -103,7 +104,7 @@
     }
     .button{
         bottom: 0;
-        font-size: 2vw;
+        font-size: 0.5rem;
         height: 4vh;
     }
     .left{
