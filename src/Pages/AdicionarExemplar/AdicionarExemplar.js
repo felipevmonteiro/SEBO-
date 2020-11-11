@@ -4,6 +4,8 @@ import { useHistory } from 'react-router-dom'
 import {Form, FormGroup, Modal} from 'react-bootstrap' 
 import Button from 'react-bootstrap/Button' 
 import { useState } from 'react'
+import { Comment } from "../Components/Comments/Comments.js"
+import { CommentText } from 'semantic-ui-react'
 require('typeface-quicksand')
 
 
@@ -30,6 +32,7 @@ return(
                     <div class="card border">
                         <div class="card-body">
                             <h5 class="card-title">Cadastro de Livro</h5>
+
                             <label class="card-text">
                             </label>
                             <table class="table table-hover table-bordered table-responsive" id="tblLivro">
@@ -49,6 +52,7 @@ return(
                                         </td>
                                         <td>
                                             <input type="text" />
+                                            <CommentText />
                                         </td>
                                         <td>
                                             <textarea rows="10" />

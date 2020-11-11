@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 import Footer from "../Components/Footer/Footer";
+import { Button, Comment, Form, Header } from 'semantic-ui-react'
+import Comments from "../Components/Comments/Comments"
 import "./Resumo.css";
 
 require("typeface-quicksand");
@@ -34,7 +36,7 @@ function Resumo( props ){
                         </div>
 
                         <div className="classificacao">
-                            <img src="images/avaliacao.png"/>
+                         <Comments />
                         </div>
                     </div>
             </div>
