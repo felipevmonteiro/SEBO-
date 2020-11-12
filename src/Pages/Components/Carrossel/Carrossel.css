@@ -59,9 +59,9 @@
 }
 
 .left{
-    top: 97%;
+    top: 95%;
     left: 39%;
-    height: 52px;
+    
     transform: translate(-40%, -500%);
     background-color:  #733840;
 }

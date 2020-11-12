@@ -1,622 +1,610 @@
-*{
-    max-width: 100vw;
-}
+
 .Cadastro{
-    width: 100vw; 
-    max-width: 100vw;
-    max-height:100vh;
-    background-repeat: no-repeat;
-    background-size: 30vw;
-    overflow-x: hidden; 
-    overflow-y: hidden; 
+    width: 100vw!important; 
+    max-width: 100vw!important;
+    max-height:100vh!important;
+    background-repeat: no-repeat!important;
+    background-size: 30vw!important;
+    overflow-x: hidden!important; 
+    overflow-y: hidden!important; 
 }
 .background{
-    display:flex; 
-    align-items: center; 
-    background-image: url(/images/SakuraLoginFinal.png);
-    background-repeat: no-repeat;
-    background-size: 50vw;
-    width: 100vw;
-    justify-content: center;
-    height: 120vh;
-    flex-direction: column; 
-    background-position: -40% bottom;
+    display:flex!important; 
+    align-items: center!important; 
+    background-image: url(/images/SakuraLoginFinal.png)!important;
+    background-repeat: no-repeat!important;
+    background-size: 50vw!important;
+    width: 100vw!important;
+    justify-content: center!important;
+    height: 120vh!important;
+    flex-direction: column!important; 
+    background-position: -40% bottom!important;
 }
 .background2{
-    background-image: url(/images/ramo-cerejeira.png);
-    background-position: right top;
-    background-repeat: no-repeat;
-    background-size: 22vw;
-    width: 100vw;
-    height: 100vh;
+    background-image: url(/images/ramo-cerejeira.png)!important;
+    background-position: right top!important;
+    background-repeat: no-repeat!important;
+    background-size: 22vw!important;
+    width: 100vw!important;
+    height: 100vh!important;
 }
 .Cadastro .base{
-    max-width: 100vw;
-    padding-bottom: 10vw;
-    display:flex; 
-    align-items: center; 
-    justify-content: center;
-    flex-direction: column;  
+    max-width: 100vw!important;
+    padding-bottom: 10vw!important;
+    display:flex!important; 
+    align-items: center!important; 
+    justify-content: center!important;
+    flex-direction: column!important;  
 }
 
 .Cadastro .container{
-    align-items: center;
-    width: 100vw;
-    max-width: 100vw;
-    display:flex; 
-    justify-content: center;
-    flex-direction: column; 
+    align-items: center!important;
+    width: 100vw!important;
+    max-width: 100vw!important;
+    display:flex!important; 
+    justify-content: center!important;
+    flex-direction: column!important; 
 }
 .containbook{
-    position: relative;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: auto;
-    height: auto;
-    margin-right: 20vw;
-    padding-left: 27%;
+    position: relative!important;
+    background-repeat: no-repeat!important;
+    display: flex!important;
+    justify-content: center!important;
+    flex-direction: row!important;
+    width: auto!important;
+    height: auto!important;
+    margin-right: 20vw!important;
+    padding-left: 27%!important;
 }
 .Cadastro .book{
-    width: 100vw;
+    width: 100vw!important;
 }
 .Cadastro .textbook{
-    font-family: 'Quicksand';
-    font-weight: 500;
-    font-size: small;
-    padding-left: -5%;
-    right: 0;
-    padding-right: 0;
-    padding-top: 2%;
-    font-size: 2rem;
-    height: 5vw;
+    font-family: 'Quicksand'!important;
+    font-weight: 500!important;
+    font-size: small!important;
+    padding-left: -5%!important;
+    right: 0!important;
+    padding-right: 0!important;
+    padding-top: 2%!important;
+    font-size: 2rem!important;
+    height: 5vw!important;
 }
 .dados1aux{
-    position: absolute;
-    width: 50%;
-    left: 0;
-    padding-left: 30%;
-    height: 10vh;
+    position: absolute!important;
+    width: 50%!important;
+    left: 0!important;
+    padding-left: 30%!important;
+    height: 10vh!important;
 }
 .dados2aux{
-    position: absolute;
-    width: 50%;
-    left:50%;
-    padding-left: 5%;
+    position: absolute!important;
+    width: 50%!important;
+    left:50%!important;
+    padding-left: 5%!important;
 }
 .dados1{
-    padding-top: 1.3vw;
-    padding-left: 3vw;
-    resize: inherit;
-    align-items: center;
-    font-size: larger;
-    font-family: 'Quicksand';
-    font-weight: 800;
-    font-size: 1.2rem;
-    width: auto;
-    height: auto;
+    padding-top: 1.3vw!important;
+    padding-left: 3vw!important;
+    resize: inherit!important;
+    align-items: center!important;
+    font-size: larger!important;
+    font-family: 'Quicksand'!important;
+    font-weight: 800!important;
+    font-size: 1.2rem!important;
+    width: auto!important;
+    height: auto!important;
 }
 .dados2{
-    position: absolute;
-    margin-left: 7vw;
-    max-width: 90vw;
-    max-height: 90vw;
-    margin-top: 1.3vw;
-    align-items: center;
-    font-family: 'Quicksand';
-    font-weight: 800;
-    font-size: 1.2rem;
+    position: absolute!important;
+    margin-left: 7vw!important;
+    max-width: 90vw!important;
+    max-height: 90vw!important;
+    margin-top: 1.3vw!important;
+    align-items: center!important;
+    font-family: 'Quicksand'!important;
+    font-weight: 800!important;
+    font-size: 1.2rem!important;
 }
 .posicaocaneta{
-    position: absolute;
-    right: 0;
-    margin-right: -12%;
-    bottom: 0;
-    margin-bottom: 1%;
-    padding-top: 10%;
+    position: absolute!important;
+    right: 0!important;
+    margin-right: -12%!important;
+    bottom: 0!important;
+    margin-bottom: 1%!important;
+    padding-top: 10%!important;
 
 }
 .caneta{
-    margin-top: 2vw;
-    max-width: 25vw;
-    max-height: 25vw;
-    width: auto;
-    height: auto;
+    margin-top: 2vw!important;
+    max-width: 25vw!important;
+    max-height: 25vw!important;
+    width: auto!important;
+    height: auto!important;
 }
 .Cadastro .button{
-    font-family: 'Quicksand';
-    font-weight: bolder;
-    right:0;
-    bottom: 0;
-    width: 74vw;
-    height: 1vw;
-    padding-top: 16vw;
+    font-family: 'Quicksand'!important;
+    font-weight: bolder!important;
+    right:0!important;
+    bottom: 0!important;
+    width: 74vw!important;
+    height: 1vw!important;
+    padding-top: 16vw!important;
 }
 .Cadastro .butao{
-    width: 20vw;
-    margin-top: -12vw;
-    margin-left: 50vw;
+    width: 20vw!important;
+    margin-top: -12vw!important;
+    margin-left: 50vw!important;
 }
 
 @media only screen and (width < 800px){
-    *{
-        max-height: 100vh;
-    }
     .Cadastro{
-        width: 100vw; 
-        max-width: 100vw;
-        max-height:100vh;
-        background-repeat: no-repeat;
-        background-size: 30vw;
-        overflow-x: hidden; 
-        overflow-y: hidden; 
+        width: 100vw!important; 
+        max-width: 100vw!important;
+        max-height:100vh!important;
+        background-repeat: no-repeat!important;
+        background-size: 30vw!important;
+        overflow-x: hidden!important; 
+        overflow-y: hidden!important; 
     }
     .background{
-        display:flex; 
-        align-items: center; 
-        background-image: url(/images/branco.png);
-        background-repeat: no-repeat;
-        background-size: 58vw;
-        width: 100vw;
-        justify-content: center;
-        height: 100vh;
-        flex-direction: column; 
-        background-position: -40% bottom;
+        display:flex!important; 
+        align-items: center!important; 
+        background-image: url(/images/branco.png)!important;
+        background-repeat: no-repeat!important;
+        background-size: 58vw!important;
+        width: 100vw!important;
+        justify-content: center!important;
+        height: 100vh!important;
+        flex-direction: column!important; 
+        background-position: -40% bottom!important;
     }
     .background2{
-        background-image: url(/images/ramo-cerejeira.png);
-        background-position-y: 7vh;
-        background-repeat: no-repeat;
-        background-size: 22vw;
-        width: 100vw;
-        height: 108vh;
+        background-image: url(/images/ramo-cerejeira.png)!important;
+        background-position-y: 7vh!important;
+        background-repeat: no-repeat!important;
+        background-size: 22vw!important;
+        width: 100vw!important;
+        height: 108vh!important;
     }
     .Cadastro .base{
-        max-width: 162w;
-        padding-bottom: 10vw;
-        display:flex; 
-        align-items: center; 
-        justify-content: center;
-        flex-direction: column;
-        padding-top: 8vh;
+        max-width: 162w!important;
+        padding-bottom: 10vw!important;
+        display:flex!important; 
+        align-items: center!important; 
+        justify-content: center!important;
+        flex-direction: column!important;
+        padding-top: 8vh!important;
     }
     
     .Cadastro .container{
-        align-items: center;
-        width: 100vw;
-        max-width: 100vw;
-        display:flex; 
-        justify-content: center;
-        flex-direction: column; 
-        height: 74vh;
-        padding-top: 10vh;
+        align-items: center!important;
+        width: 100vw!important;
+        max-width: 100vw!important;
+        display:flex!important; 
+        justify-content: center!important;
+        flex-direction: column!important; 
+        height: 74vh!important;
+        padding-top: 10vh!important;
     }
     .containbook{
-        position: relative;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        width: auto;
-        height: auto;
-        margin-right: 43vw;
-        padding-left: 27%;
+        position: relative!important;
+        background-repeat: no-repeat!important;
+        display: flex!important;
+        justify-content: center!important;
+        flex-direction: row!important;
+        width: auto!important;
+        height: auto!important;
+        margin-right: 43vw!important;
+        padding-left: 27%!important;
     }
     .Cadastro .book{
-        width: 100vw;
+        width: 100vw!important;
     }
     .Cadastro .textbook{
-        font-family: 'Quicksand';
-        font-weight: 400;
-        padding-left: -5%;
-        padding-top: 5vh;
-        font-size: 7vw;
-        height: 26vw;
-        width: 70vw;
-        display: flex;
-        text-align: center;
+        font-family: 'Quicksand'!important;
+        font-weight: 400!important;
+        padding-left: -5%!important;
+        padding-top: 5vh!important;
+        font-size: 7vw!important;
+        height: 26vw!important;
+        width: 70vw!important;
+        display: flex!important;
+        text-align: center!important;
     }
     .dados1aux{
-        position: absolute;
-        width: 92%;
-        left: 0;
-        padding-left: 4%;
+        position: absolute!important;
+        width: 92%!important;
+        left: 0!important;
+        padding-left: 4%!important;
     }
     .dados2aux{
-        position: absolute;
-        width: 50%;
-        left:50%;
-        padding-left: 34%;
+        position: absolute!important;
+        width: 50%!important;
+        left:50%!important;
+        padding-left: 34%!important;
     }
     .dados1{
-        padding-top: 1vw;
-        padding-left: 3vw;
-        resize: inherit;
-        align-items: center;
-        font-size: larger;
-        font-family: 'Quicksand';
-        font-weight: 800;
-        font-size: 0.9rem;
-        width: auto;
-        height: auto;
+        padding-top: 1vw!important;
+        padding-left: 3vw!important;
+        resize: inherit!important;
+        align-items: center!important;
+        font-size: larger!important;
+        font-family: 'Quicksand'!important;
+        font-weight: 800!important;
+        font-size: 0.9rem!important;
+        width: auto!important;
+        height: auto!important;
     }
     
     .dados2{
-        position: absolute;
-        margin-left: 7vw;
-        max-width: 90vw;
-        max-height: 90vw;
-        margin-top: 1.3vw;
-        align-items: center;
-        font-family: 'Quicksand';
-        font-weight: 800;
-        font-size: 0.9rem;
+        position: absolute!important;
+        margin-left: 7vw!important;
+        max-width: 90vw!important;
+        max-height: 90vw!important;
+        margin-top: 1.3vw!important;
+        align-items: center!important;
+        font-family: 'Quicksand'!important;
+        font-weight: 800!important;
+        font-size: 0.9rem!important;
     }
     .posicaocaneta{
-        position: absolute;
-        right: 0;
-        margin-right: -88%;
-        bottom: 0;
-        margin-bottom: 1%;
-        padding-top: 10%;
+        position: absolute!important;
+        right: 0!important;
+        margin-right: -88%!important;
+        bottom: 0!important;
+        margin-bottom: 1%!important;
+        padding-top: 10%!important;
     
     }
     .caneta{
-        margin-top: 2vw;
-        margin-right: -3vw;
-        max-width: 32vw;
-        max-height: 25vw;
-        width: auto;
-        height: auto;
+        margin-top: 2vw!important;
+        margin-right: -3vw!important;
+        max-width: 32vw!important;
+        max-height: 25vw!important;
+        width: auto!important;
+        height: auto!important;
     }
     .Cadastro .button{
-        font-family: 'Quicksand';
-        font-weight: bolder;
-        margin-left: 30vw;
-        height: 67vw;
-        width: 59vw;
+        font-family: 'Quicksand'!important;
+        font-weight: bolder!important;
+        margin-left: 30vw!important;
+        height: 67vw!important;
+        width: 59vw!important;
     }
     .livrao{
-        width: 380%;
-        left: 30%;
-        position: relative;
-        min-height: 23rem;
-        margin-right: -3vw;
+        width: 380%!important;
+        left: 30%!important;
+        position: relative!important;
+        min-height: 23rem!important;
+        margin-right: -3vw!important;
     }
     .Cadastro .form-group{
-        width: 40vw;
+        width: 40vw!important;
     }
     .inputcel{
-        width: 3vw;
+        width: 3vw!important;
     }
     .Cadastro .butao {
-        width: 30vw;
-        align-self: center;
-        margin-left: -3vw;
-        margin-top: 10vh;
+        width: 30vw!important;
+        align-self: center!important;
+        margin-left: -3vw!important;
+        margin-top: 10vh!important;
     }
 
 }
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { 
-    *{
-        max-height: 100vh;
-    }
+@media only screen and (width > 768px) and (width < 1024px)  { 
     .Cadastro{
-        width: 100vw; 
-        max-width: 100vw;
-        max-height:100vh;
-        background-repeat: no-repeat;
-        background-size: 30vw;
-        overflow-x: hidden; 
-        overflow-y: hidden; 
+        width: 100vw!important; 
+        max-width: 100vw!important;
+        max-height:100vh!important;
+        background-repeat: no-repeat!important;
+        background-size: 30vw!important;
+        overflow-x: hidden!important; 
+        overflow-y: hidden!important; 
     }
     .background{
-        display:flex; 
-        align-items: center; 
-        background-image: url(/images/branco.png);
-        background-repeat: no-repeat;
-        background-size: 58vw;
-        width: 100vw;
-        justify-content: center;
-        height: 100vh;
-        flex-direction: column; 
-        background-position: -40% bottom;
+        display:flex!important; 
+        align-items: center!important; 
+        background-image: url(/images/branco.png)!important;
+        background-repeat: no-repeat!important;
+        background-size: 58vw!important;
+        width: 100vw!important;
+        justify-content: center!important;
+        height: 100vh!important;
+        flex-direction: column!important; 
+        background-position: -40% bottom!important;
     }
     .background2{
-        background-image: url(/images/ramo-cerejeira.png);
-        background-position-y: 7vh;
-        background-repeat: no-repeat;
-        background-size: 22vw;
-        width: 100vw;
-        height: 108vh;
+        background-image: url(/images/ramo-cerejeira.png)!important;
+        background-position-y: 7vh!important;
+        background-repeat: no-repeat!important;
+        background-size: 22vw!important;
+        width: 100vw!important;
+        height: 108vh!important;
     }
     .Cadastro .base{
-        max-width: 162w;
-        padding-bottom: 10vw;
-        display:flex; 
-        align-items: center; 
-        justify-content: center;
-        flex-direction: column;
-        padding-top: 8vh;
+        max-width: 162w!important;
+        padding-bottom: 10vw!important;
+        display:flex!important; 
+        align-items: center!important; 
+        justify-content: center!important;
+        flex-direction: column!important;
+        padding-top: 8vh!important;
     }
     
     .Cadastro .container{
-        align-items: center;
-        width: 100vw;
-        max-width: 100vw;
-        display:flex; 
-        justify-content: center;
-        flex-direction: column; 
-        height: 74vh;
-        padding-top: 10vh;
+        align-items: center!important;
+        width: 100vw!important;
+        max-width: 100vw!important;
+        display:flex!important; 
+        justify-content: center!important;
+        flex-direction: column!important; 
+        height: 74vh!important;
+        padding-top: 10vh!important;
     }
     .containbook{
-        position: relative;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        width: auto;
-        height: auto;
-        margin-right: 43vw;
-        padding-left: 27%;
+        position: relative!important;
+        background-repeat: no-repeat!important;
+        display: flex!important;
+        justify-content: center!important;
+        flex-direction: row!important;
+        width: auto!important;
+        height: auto!important;
+        margin-right: 43vw!important;
+        padding-left: 27%!important;
     }
     .Cadastro .book{
-        width: 100vw;
+        width: 100vw!important;
     }
     .Cadastro .textbook{
-        font-family: 'Quicksand';
-        font-weight: 400;
-        padding-left: -5%;
-        padding-top: 5vh;
-        font-size: 7vw;
-        height: 26vw;
-        width: 70vw;
-        display: flex;
-        text-align: center;
+        font-family: 'Quicksand'!important;
+        font-weight: 400!important;
+        padding-left: -5%!important;
+        padding-top: 5vh!important;
+        font-size: 7vw!important;
+        height: 26vw!important;
+        width: 70vw!important;
+        display: flex!important;
+        text-align: center!important;
     }
     .dados1aux{
-        position: absolute;
-        width: 92%;
-        left: 0;
-        padding-left: 4%;
+        position: absolute!important;
+        width: 92%!important;
+        left: 0!important;
+        padding-left: 4%!important;
     }
     .dados2aux{
-        position: absolute;
-        width: 50%;
-        left:50%;
-        padding-left: 34%;
+        position: absolute!important;
+        width: 50%!important;
+        left:50%!important;
+        padding-left: 34%!important;
     }
     .dados1{
-        padding-top: 1vw;
-        padding-left: 3vw;
-        resize: inherit;
-        align-items: center;
-        font-size: larger;
-        font-family: 'Quicksand';
-        font-weight: 800;
-        font-size: 1.9rem;
-        width: auto;
-        height: auto;
+        padding-top: 1vw!important;
+        padding-left: 3vw!important;
+        resize: inherit!important;
+        align-items: center!important;
+        font-size: larger!important;
+        font-family: 'Quicksand'!important;
+        font-weight: 800!important;
+        font-size: 1.9rem!important;
+        width: auto!important;
+        height: auto!important;
     }
     
     .dados2{
-        position: absolute;
-        margin-left: 7vw;
-        max-width: 90vw;
-        max-height: 90vw;
-        margin-top: 1.3vw;
-        align-items: center;
-        font-family: 'Quicksand';
-        font-weight: 800;
-        font-size: 1.9rem;
+        position: absolute!important;
+        margin-left: 7vw!important;
+        max-width: 90vw!important;
+        max-height: 90vw!important;
+        margin-top: 1.3vw!important;
+        align-items: center!important;
+        font-family: 'Quicksand'!important;
+        font-weight: 800!important;
+        font-size: 1.9rem!important;
     }
     .posicaocaneta{
-        position: absolute;
-        right: 0;
-        margin-right: -80%;
-        bottom: 0;
-        margin-bottom: 1%;
-        padding-top: 10%;
+        position: absolute!important;
+        right: 0!important;
+        margin-right: -80%!important;
+        bottom: 0!important;
+        margin-bottom: 1%!important;
+        padding-top: 10%!important;
     
     }
     .caneta{
-        margin-top: 2vw;
-        margin-right: -3vw;
-        max-width: 32vw;
-        max-height: 25vw;
-        width: auto;
-        height: auto;
+        margin-top: 2vw!important;
+        margin-right: -3vw!important;
+        max-width: 32vw!important;
+        max-height: 25vw!important;
+        width: auto!important;
+        height: auto!important;
     }
     .Cadastro .button{
-        font-family: 'Quicksand';
-        font-weight: bolder;
-        margin-left: 30vw;
-        height: 67vw;
-        width: 59vw;
+        font-family: 'Quicksand'!important;
+        font-weight: bolder!important;
+        margin-left: 30vw!important;
+        height: 67vw!important;
+        width: 59vw!important;
     }
     .livrao{
-        width: 380%;
-        left: 26%;
-        position: relative;
-        min-height: 41rem;
-        margin-right: -3vw;
+        width: 380%!important;
+        left: 26%!important;
+        position: relative!important;
+        min-height: 41rem!important;
+        margin-right: -3vw!important;
     }
     .Cadastro .form-group{
-        width: 40vw;
+        width: 40vw!important;
     }
     .inputcel{
-        width: 3vw;
+        width: 3vw!important;
     }
     .Cadastro .butao {
-        width: 87vw;
-        align-self: center;
-        margin-left: -34vw;
-        margin-top: 22vh;
+        width: 87vw!important;
+        align-self: center!important;
+        margin-left: -34vw!important;
+        margin-top: 22vh!important;
     }
 
 }
-@media only screen 
-and (min-device-width : 1024px) 
-and (max-device-width : 1366px)  { 
+@media only screen and (width > 1024px) and (width  < 1366px) { 
     *{
-        max-height: 100vh;
+        max-height: 100vh!important;
     }
     .Cadastro{
-        width: 100vw; 
-        max-width: 100vw;
-        max-height:100vh;
-        background-repeat: no-repeat;
-        background-size: 30vw;
-        overflow-x: hidden; 
-        overflow-y: hidden; 
+        width: 100vw!important; 
+        max-width: 100vw!important;
+        max-height:100vh!important;
+        background-repeat: no-repeat!important;
+        background-size: 30vw!important;
+        overflow-x: hidden!important; 
+        overflow-y: hidden!important; 
     }
     .background{
-        display:flex; 
-        align-items: center; 
-        background-image: url(/images/branco.png);
-        background-repeat: no-repeat;
-        background-size: 58vw;
-        width: 100vw;
-        justify-content: center;
-        height: 100vh;
-        flex-direction: column; 
-        background-position: -40% bottom;
+        display:flex!important; 
+        align-items: center!important; 
+        background-image: url(/images/branco.png)!important;
+        background-repeat: no-repeat!important;
+        background-size: 58vw!important;
+        width: 100vw!important;
+        justify-content: center!important;
+        height: 100vh!important;
+        flex-direction: column!important; 
+        background-position: -40% bottom!important;
     }
     .background2{
-        background-image: url(/images/ramo-cerejeira.png);
-        background-position-y: 7vh;
-        background-repeat: no-repeat;
-        background-size: 22vw;
-        width: 100vw;
-        height: 108vh;
+        background-image: url(/images/ramo-cerejeira.png)!important;
+        background-position-y: 7vh!important;
+        background-repeat: no-repeat!important;
+        background-size: 22vw!important;
+        width: 100vw!important;
+        height: 108vh!important;
     }
     .Cadastro .base{
-        max-width: 162w;
-        padding-bottom: 10vw;
-        display:flex; 
-        align-items: center; 
-        justify-content: center;
-        flex-direction: column;
-        padding-top: 8vh;
+        max-width: 162w!important;
+        padding-bottom: 10vw!important;
+        display:flex!important; 
+        align-items: center!important; 
+        justify-content: center!important;
+        flex-direction: column!important;
+        padding-top: 8vh!important;
     }
     
     .Cadastro .container{
-        align-items: center;
-        width: 100vw;
-        max-width: 100vw;
-        display:flex; 
-        justify-content: center;
-        flex-direction: column; 
-        height: 74vh;
-        padding-top: 10vh;
+        align-items: center!important;
+        width: 100vw!important;
+        max-width: 100vw!important;
+        display:flex!important; 
+        justify-content: center!important;
+        flex-direction: column!important; 
+        height: 74vh!important;
+        padding-top: 10vh!important;
     }
     .containbook{
-        position: relative;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        width: auto;
-        height: auto;
-        margin-right: 43vw;
-        padding-left: 27%;
+        position: relative!important;
+        background-repeat: no-repeat!important;
+        display: flex!important;
+        justify-content: center!important;
+        flex-direction: row!important;
+        width: auto!important;
+        height: auto!important;
+        margin-right: 43vw!important;
+        padding-left: 27%!important;
     }
     .Cadastro .book{
-        width: 100vw;
+        width: 100vw!important;
     }
     .Cadastro .textbook{
-        font-family: 'Quicksand';
-        font-weight: 400;
-        padding-left: -5%;
-        padding-top: 5vh;
-        font-size: 7vw;
-        height: 26vw;
-        width: 70vw;
-        display: flex;
-        text-align: center;
+        font-family: 'Quicksand'!important;
+        font-weight: 400!important;
+        padding-left: -5%!important;
+        padding-top: 5vh!important;
+        font-size: 7vw!important;
+        height: 26vw!important;
+        width: 70vw!important;
+        display: flex!important;
+        text-align: center!important;
     }
     .dados1aux{
-        position: absolute;
-        width: 92%;
-        left: 16%;
-        padding-left: 4%;
+        position: absolute!important;
+        width: 92%!important;
+        left: 16%!important;
+        padding-left: 4%!important;
     }
     .dados2aux{
-        position: absolute;
-        width: 50%;
-        left:50%;
-        padding-left: 34%;
+        position: absolute!important;
+        width: 50%!important;
+        left:50%!important;
+        padding-left: 34%!important;
     }
     .dados1{
-        padding-top: 1vw;
-        padding-left: 3vw;
-        resize: inherit;
-        align-items: center;
-        font-size: larger;
-        font-family: 'Quicksand';
-        font-weight: 800;
-        font-size: 1.9rem;
-        width: auto;
-        height: auto;
+        padding-top: 1vw!important;
+        padding-left: 3vw!important;
+        resize: inherit!important;
+        align-items: center!important;
+        font-size: larger!important;
+        font-family: 'Quicksand'!important;
+        font-weight: 800!important;
+        font-size: 1.9rem!important;
+        width: auto!important;
+        height: auto!important;
     }
     
     .dados2{
-        position: absolute;
-        margin-left: 7vw;
-        max-width: 90vw;
-        max-height: 90vw;
-        margin-top: 1.3vw;
-        align-items: center;
-        font-family: 'Quicksand';
-        font-weight: 800;
-        font-size: 1.9rem;
+        position: absolute!important;
+        margin-left: 7vw!important;
+        max-width: 90vw!important;
+        max-height: 90vw!important;
+        margin-top: 1.3vw!important;
+        align-items: center!important;
+        font-family: 'Quicksand'!important;
+        font-weight: 800!important;
+        font-size: 1.9rem!important;
     }
     .posicaocaneta{
-        position: absolute;
-        right: 0;
-        margin-right: -73%;
-        bottom: 0;
-        margin-bottom: 1%;
-        padding-top: 10%;
+        position: absolute!important;
+        right: 0!important;
+        margin-right: -73%!important;
+        bottom: 0!important;
+        margin-bottom: 1%!important;
+        padding-top: 10%!important;
     
     }
     .caneta{
-        margin-top: 2vw;
-        margin-right: -3vw;
-        max-width: 32vw;
-        max-height: 25vw;
-        width: auto;
-        height: auto;
+        margin-top: 2vw!important;
+        margin-right: -3vw!important;
+        max-width: 32vw!important;
+        max-height: 25vw!important;
+        width: auto!important;
+        height: auto!important;
     }
     .Cadastro .button{
-        font-family: 'Quicksand';
-        font-weight: bolder;
-        margin-left: 30vw;
-        height: 67vw;
-        width: 59vw;
+        font-family: 'Quicksand'!important;
+        font-weight: bolder!important;
+        margin-left: 30vw!important;
+        height: 67vw!important;
+        width: 59vw!important;
     }
     .livrao{
-        width: 380%;
-        left: 26%;
-        position: relative;
-        min-height: 41rem;
-        margin-right: -3vw;
+        width: 380%!important;
+        left: 26%!important;
+        position: relative!important;
+        min-height: 41rem!important;
+        margin-right: -3vw!important;
     }
     .Cadastro .form-group{
-        width: 40vw;
+        width: 40vw!important;
     }
     .inputcel{
-        width: 3vw;
+        width: 3vw!important;
     }
     .Cadastro .butao {
-        width: 87vw;
-        align-self: center;
-        margin-left: -34vw;
-        margin-top: 16vh;
+        width: 87vw!important;
+        align-self: center!important;
+        margin-left: -34vw!important;
+        margin-top: 16vh!important;
     }
 
 }
