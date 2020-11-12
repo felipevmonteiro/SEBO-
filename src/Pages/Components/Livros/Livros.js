@@ -30,7 +30,7 @@ const livros = [
         nome: "Livro: Lolita",
         autor: "Vladimir Nabokov",
 		categoria: "Clássicos da Literatura Mundial",
-        descricao: "Polêmico, irônico e tocante, este romance narra o amor obsessivo de Humbert Humbert, um cínico intelectual de meia-idade, por Dolores Haze, Lolita, 12 anos, uma ninfeta que inflama suas loucuras e seus desejos mais agudos. Através da voz de Humbert Humbert, o leitor nunca sabe ao certo quem é a caça, quem é o caçador. A obra-prima de Nabokov, agora em nova tradução, não é apenas uma assombrosa história de paixão e ruína. É também uma viagem de redescoberta pela América; é a exploração da linguagem e de seus matizes; é uma mostra da arte narrativa em seu auge. Na literatura contemporânea, não existe romance como Lolita.",
+        descricao: "Polêmico, irônico e tocante, este romance narra o amor obsessivo de Humbert Humbert, um cínico intelectual de meia-idade, por Dolores Haze, Lolita, 12 anos, uma ninfeta que inflama suas loucuras e seus desejos mais agudos. Através da voz de Humbert Humbert, o leitor nunca sabe ao certo quem é a caça, quem é o caçador. A obra-prima de Nabokov, agora em nova tradução, não é apenas uma assombrosa história de paixão e ruína.",
         comment:"Senti muita conotação sexual ein",
         name: "Marcone Faria",
         pathName: "/images/livros/lolita.jpg",

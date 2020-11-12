@@ -1,11 +1,11 @@
 *{
     max-width: 100vw;
 }
+
 .Home .section-2{
-    background-image: url("/images/section-2.png");
-    background-size: 100%;
-    background-position-x: 0%; 
-    background-position-y: 0%; 
+    background-image: url("/images/ramo-cerejeira-3.png");
+    background-position-x: 100%; 
+    background-position-y: -80%; 
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;

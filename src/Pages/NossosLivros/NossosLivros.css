@@ -3,7 +3,7 @@
     background-image: url(/images/ramo-cerejeira-3.png);
     background-repeat: no-repeat;
     background-position-x: 100%;
-    background-position-y: -3.3%;
+    background-position-y: -63%;
     background-size: 35%;
 }
 
@@ -28,7 +28,7 @@
     justify-content: center;
     position: relative;
     background-color: white;
-    margin-bottom: 10%;
+    margin-bottom: 155%;
 }
 
 .subtitle{
@@ -112,5 +112,9 @@
     .title{
         padding-top: 5%;
         font-size: 2.1rem;
+    }
+
+    .NossosLivros .section-3{
+        margin-bottom: 5%;
     }
 }

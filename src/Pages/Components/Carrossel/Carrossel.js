@@ -19,7 +19,7 @@ function Carrossel(){
       history.push("Nossoslivros")
     }
     return (
-            <Carousel className="carousel"  autoplay={false} wrapAround={true} transactionMode={fade} slidesToScroll='auto' disableEdgeSwiping='fatruelse' cellAlign="center" renderCenterLeftControls={({ previousSlide }) => (
+            <Carousel className="carousel"  autoplay={false} wrapAround={true} transactionMode={fade} slidesToScroll='auto' disableEdgeSwiping='fatruelse'  cellAlign="center" renderCenterLeftControls={({ previousSlide }) => (
                 <IconContext.Provider value={{color: "#ffff", size: "5vw"}}>
                     <IconButton onClick={ previousSlide}>
                         <IoIosArrowBack/>

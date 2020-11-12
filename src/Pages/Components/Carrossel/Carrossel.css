@@ -1,7 +1,16 @@
+*{
+    max-width: 100vw;
+}
+
 .capa-imagem{
-    width: 100%;
+    width: 100vw;
     background-position: center;
     background-size: cover;
+}
+
+.carousel{
+    width: 100vw;
+    height: 100vh;
 }
 
 .content{

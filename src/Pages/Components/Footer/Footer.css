@@ -1,6 +1,7 @@
 .footer{
     background-image: url(/images/ramo-cerejeira-2.png);
     background-size: 14%;
+    
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +52,7 @@
     /* for cellphones*/
     .footer{
         background-image: url(/images/rosa.png);
-        height: 20vh;
+        height: 25vh;
         background-size: 30%;
     }
     .Text1{

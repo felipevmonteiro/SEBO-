@@ -11,7 +11,7 @@ function Home(props){
     return (
       
       <>
-      <Carrossel/>
+        <Carrossel/>
         <div className="Home">
           <div className="section-2">
             <h1 className="TitleS2"><span class="badge badge-danger">Novidades</span> da semana</h1>
@@ -32,9 +32,8 @@ function Home(props){
               <h1 className="TitleS5">Como <span class="badge badge-danger">doar</span> um exemplar:</h1>
               <p className ="TextoLivroS5">É possível efetuar a doação de um exemplar deixando-o em nossa loja (situada bem no centro de BH) ou então entrando em contato por meio do nosso telefone <img />, WhatsApp ou E-mail. No ato da doação entregamos um cupom de desconto para a retirada de algum produto em nosso Sebo. Aceitamos livros de qualquer gênero literário e em qualquer condição de uso.</p>
           </div>
+          <Footer/>
         </div>
-
-      <Footer/>
     </>
     );
 }
