@@ -8,10 +8,9 @@
 .Label{
     background-color: red;
 }
-#upload{
-    background-color: blue;
-
-}
-.id{
-    background-color: blue;
+@media only screen and (width < 800px){
+    .img {
+        width: 35vw;
+        height: 42vh;
+        }
 }
