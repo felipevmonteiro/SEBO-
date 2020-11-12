@@ -12,11 +12,13 @@ function Routes(){
     return(
         <BrowserRouter>
             <Switch>
-                <Route path="/" component={userMenu} />   
+                <Route exact path="/cadastro" component={Cadastro} />   
+                <Route exact path="/login" component={Login} />
+                <Route exact path="/adicionarexemplar" component={AdicionarExemplar} />
+                <Route path="/" component={userMenu} />
+                <Route path="/" component={userMenu} />
+                <Route exact path="/" component={userMenu} />
             </Switch>
-            <Route exact path="/">
-                <Redirect to="/home" />
-            </Route>
         </BrowserRouter> 
     );
 }
@@ -27,22 +29,10 @@ function userMenu(){
             <Switch>
                 <Route path="/home" component={Home} />
                 <Route path="/home" component={() => <Redirect to="/login"/>} />
-
                 <Route path="/nossoslivros" component={NossosLivros} />
                 <Route path="/nossoslivros" component={() => <Redirect to="/login"/>} />
-
                 <Route path="/resumo" component={Resumo} />
                 <Route path="/resumo" component={() => <Redirect to="/login"/>} />
-
-                <Route path="/login" component={Login} />
-                <Route path="/login" component={() => <Redirect to="/login"/>} />
-
-                <Route path="/cadastro" component={Cadastro} />
-                <Route path="/cadastro" component={() => <Redirect to="/login"/>} />
-
-                <Route path="/adicionarexemplar" component={AdicionarExemplar} />
-                <Route path="/adicionarexemplar" component={() => <Redirect to="/login"/>} />
-
             </Switch>
         </Menu>
     );

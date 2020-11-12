@@ -9,45 +9,16 @@
     background-color: #F2C4D5;
 }
 .Text1{
-    margin-left: 25vw;
-}
-.Text2{
-    padding-left: 8vw;
-}
-.Text3{
-    padding-left: 8vw;
+    margin-left: 30vw;
 }
 .TextG{
     padding-top: 4vh;
     font-family: 'Quicksand';
-    font-size: 1.3vw;
+    font-size: 2vw;
     font-weight: 400;
-    color:black;
+    color:white;
     max-height: 100vh;
 }
-.TextG1{
-    padding-top: 1vh;
-    font-family: 'Quicksand';
-    font-size: 1.3vw;
-    font-weight: 400;
-    color:black;
-    max-height: 100vh;
-}
-.historia{
-    background-color:  #733840;
-}
-.LinkF{
-    color: black;
-    font-family: 'Quicksand';
-    font-size: 1.3vw;
-    font-weight: 400;
-    text-decoration: underline;
-}
-.sakuraFooter{
-    margin-left: 10vw;
-    height: 25vh; 
-}
-
 @media only screen and (width < 800px){
     /* for cellphones*/
     .footer{
@@ -56,38 +27,10 @@
         background-size: 30%;
     }
     .Text1{
-        margin-left: 6vw;
+        margin-left: 9vw;
     }
     .TextG{
-        color: #722f37;
+        color: white;
         font-size: 2.5vw;
-    }
-    .TextG1{
-        padding-top: 1vh;
-        font-family: 'Quicksand';
-        font-size: 2.2vw;
-        font-weight: 400;
-        color:black;
-        max-height: 100vh;
-    }
-    .LinkF{
-        color: black;
-        font-family: 'Quicksand';
-        font-size: 2.2vw;
-        font-weight: 400;
-        text-decoration: underline;
-    }
-    .Text2{
-        padding-left: 3vw;
-    }
-    .Text3{
-        padding-left: 5vw;
-    }
-    .sakuraFooter{
-        position: absolute;
-        margin-top: 3vh;
-        margin-left:3vw;
-        width: 18vw;
-        height: 15vh;
     }
 }

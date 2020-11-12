@@ -1,14 +1,10 @@
 import React from 'react'
 import "./adicionar.css"
 import { useHistory } from 'react-router-dom' 
-import {Form, FormGroup, Modal} from 'react-bootstrap' 
+import {Form, FormGroup} from 'react-bootstrap' 
 import Button from 'react-bootstrap/Button' 
 import { useState } from 'react'
-import Upload from "../Components/UploadPhoto/Upload"
-import { Comment } from "../Components/Comments/Comments.js"
-import { CommentText } from 'semantic-ui-react'
 require('typeface-quicksand')
-
 
 function AdicionarExemplar(){
     const history = useHistory(); 
@@ -17,19 +13,22 @@ function AdicionarExemplar(){
         alert("Exemplar cadastrado com sucesso!") 
         history.push("Home") 
     } 
-    
-  
 return(
     <div className="AdicionarEx">
-        <div className ="background">
-            <div className = "background2">
+    <div className="button">
+        <Button variant="danger" onClick = {Home}>Adicionar exemplar!</Button>
+    </div>
+    <div className ="background">
+        <div className = "background2">
                 <div className = "container">
-                    <div className = "base"></div>
+                    <div className = "base">
+
                     <h1 className = "textbook">
                         Adicione um novo exemplar!
                         <br/>
                     </h1>
 
+                                <Form.Label>Preço do exemplar</Form.Label> 
                     <div class="card border">
                         <div class="card-body">
                             <h5 class="card-title">Cadastro de Livro</h5>
@@ -70,13 +69,13 @@ return(
                                 </tbody>
                             </table>
                         </div>
-                        
+                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+</div>
 )
 
 
