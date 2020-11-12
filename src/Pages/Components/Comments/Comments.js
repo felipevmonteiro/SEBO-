@@ -1,19 +1,21 @@
 import React from 'react'
 import { Button, Comment, Form, Header } from 'semantic-ui-react'
-
+require('typeface-quicksand')
 
 const Comments = (props) => (
   <Comment.Group>
     <Header as='h3' dividing>
-      Comments
+      Comentário em <span class="badge badge-danger">destaque</span> do livro
     </Header>
 
     <Comment>
-      <Comment.Avatar src='https://react.semantic-ui.com/images/avatar/small/matt.jpg' />
+      <Comment.Avatar src={props.icon} />
       <Comment.Content>
-        <Comment.Author as='a'>Igor Amoras</Comment.Author>
+        <Comment.Author as='a'>
+          {props.name}
+        </Comment.Author>
         <Comment.Metadata>
-          <div>Today at 5:42PM</div>
+          <div>{props.time}</div>
         </Comment.Metadata>
         <Comment.Text> {props.comment} </Comment.Text>
         <Comment.Actions>
