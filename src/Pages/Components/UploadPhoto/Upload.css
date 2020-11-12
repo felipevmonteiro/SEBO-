@@ -8,3 +8,9 @@
 .Label{
     background-color: red;
 }
+@media only screen and (width < 800px){
+    .img {
+        width: 35vw;
+        height: 42vh;
+        }
+}
