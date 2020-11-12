@@ -2,6 +2,7 @@ import React from 'react'
 import "./adicionar.css"
 import { useHistory } from 'react-router-dom' 
 import {Form, FormGroup} from 'react-bootstrap' 
+import Upload from '../Components/UploadPhoto/Upload'
 import Button from 'react-bootstrap/Button' 
 import { useState } from 'react'
 require('typeface-quicksand')
@@ -52,7 +53,6 @@ return(
                                         </td>
                                         <td>
                                             <input type="text" />
-                                            <CommentText />
                                         </td>
                                         <td>
                                             <textarea rows="11" />

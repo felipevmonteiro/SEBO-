@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import Footer from "../Components/Footer/Footer";
+import Comments from "../Components/Comments/Comments";
 import "./Resumo.css";
 
 require("typeface-quicksand");
@@ -35,10 +36,10 @@ function Resumo( props ){
 
                         <div className="classificacao">
                             <Comments 
-                            comment={data.comment} 
-                            name={data.name} 
-                            time={data.time} 
-                            icon={data.icon}/>
+                            comment= {data.comment} 
+                            name = {data.name} 
+                            time = {data.time} 
+                            icon = {data.icon}/>
                         </div>
                     </div>
             </div>
