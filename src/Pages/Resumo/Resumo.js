@@ -25,7 +25,6 @@ function Resumo( props ){
                     <div className="dados">
                         <div className="titulo-livro">
                             {data.nome}
-                            
                         </div>
 
                         <div className="autor-livro">

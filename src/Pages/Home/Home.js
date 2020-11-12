@@ -1,7 +1,7 @@
 import React from "react";
 import Carrossel from "../Components/Carrossel/Carrossel";
 import Footer from "../Components/Footer/Footer";
-import GalleryLivros from "../Components/GalleryLivros/GalleryLivros";
+import GalleryLivrosHome from "../Components/GalleryLivrosHome/GalleryLivrosHome";
 import "./Home.css";
 require("typeface-quicksand");
 
@@ -15,7 +15,7 @@ function Home(props){
         <div className="Home">
           <div className="section-2">
             <h1 className="TitleS2"><span class="badge badge-danger">Novidades</span> da semana</h1>
-            <GalleryLivros/>
+            <GalleryLivrosHome/>
           </div>
           
           <div className="section-3">

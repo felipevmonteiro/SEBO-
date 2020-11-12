@@ -1,13 +1,14 @@
 .livro-carousel{
     margin-top: 5%;
     height: 275px;
+    color: black;
 }
 
-.livro-info{
+.containerLHome .livro-info{
     font-family: 'Quicksand';
-    font-size: 20px;
-    font-weight: 400!important;
-    color: white!important;
+    font-weight: 500!important;
+    color:black!important;
+    font-size: 1.7vw;
     display: flex;
     text-align: center;
     align-items: center;
@@ -15,6 +16,7 @@
 }
 
 .itens-carousel{
+    color:black;
     text-align: center;
     align-items: center;
     display: flex;
@@ -24,13 +26,17 @@
 
 }
 
-.container {
+.containerLHome {
+    max-width: 100vw;
+    align-self: center;
     align-items: center;
     display: flex;
     display: grid;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 2.5vw;
+    grid-row-gap: 0vh;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding-left: 150px;
+    color: black;
 }
 
 .hover01 img {

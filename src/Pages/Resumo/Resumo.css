@@ -8,7 +8,6 @@
 
     display: flex;
     flex-direction: row;
-    margin-bottom: 15%;
 }
 
 .resumo .img-format{
@@ -21,17 +20,16 @@
     font-size: 50px;
     font-weight: 500;
     text-align: left;
-    color: darkgray;
+    color: black;
     display: flex;
     align-items: center;
 }
 
 .resumo .autor-livro{
-    padding-top: 5%;
     font-family: 'Quicksand';
     font-size: 20px;
     font-weight: 500;
-    color: darkgray;
+    color: black;
     display: flex;
     text-align: left;
 }
@@ -39,8 +37,8 @@
 .descricao-livro{
     font-family: 'Quicksand';
     font-size: 20px;
-    font-weight: 300;
-    color: darkgray;
+    font-weight: 400;
+    color: black;
     display: flex;
     text-align: justify;
 }
@@ -65,12 +63,8 @@
     min-height: 417px;
 }
 
-.resumo .classificacao{
-    padding-top: 5%;
-    padding-bottom: 10%;
-}
-
 .hover01 img {
+    padding-top: 25px;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: .3s ease-in-out;
@@ -81,7 +75,9 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-
+.classificacao{
+    padding-top: 4vh;
+}
 @media (max-width: 800px){
     .resumo{
         display: flex;

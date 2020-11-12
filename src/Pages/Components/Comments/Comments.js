@@ -4,7 +4,7 @@ require('typeface-quicksand')
 
 const Comments = (props) => (
   <Comment.Group>
-    <Header as='h3' dividing>
+    <Header as='h6' dividing>
       Comentário em <span class="badge badge-danger">destaque</span> do livro
     </Header>
 
