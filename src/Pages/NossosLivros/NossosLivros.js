@@ -51,7 +51,6 @@ function NossosLivros(){
                         <Livros/>
                     </div>
                 </div>
-
                 <Footer/>
             </div>
         </>

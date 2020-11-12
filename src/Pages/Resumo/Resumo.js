@@ -37,7 +37,11 @@ function Resumo( props ){
                         </div>
 
                         <div className="classificacao">
-                            <Comments comment={data.comment} />
+                            <Comments 
+                            comment={data.comment} 
+                            name={data.name} 
+                            time={data.time} 
+                            icon={data.icon}/>
                         </div>
                     </div>
             </div>
