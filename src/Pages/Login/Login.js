@@ -11,8 +11,11 @@ function Login(){
     const history = useHistory(); 
      
     function login(){ 
-        if(email === 'admin'){
+        if(email === 'admin@haikai.com'){
             history.push("adicionarexemplar") 
+        }else{
+            alert("Bem vindo \n" + email) 
+            history.push("Home") 
         }
     } 
     function cadastre(){

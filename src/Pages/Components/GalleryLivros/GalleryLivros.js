@@ -35,6 +35,10 @@ function GalleryLivros(){
             autor: "Jostein Gaarder",
             descricao: "Às vésperas de seu aniversário de quinze anos, Sofia Amundsen começa a receber bilhetes e cartões-postais bastante estranhos. Os bilhetes são anônimos e perguntam a Sofia quem é ela e de onde vem o mundo. Os postais são enviados do Líbano, por um major desconhecido, para uma certa Hilde Møller Knag, garota a quem Sofia também não conhece. O mistério dos bilhetes e dos postais é o ponto de partida deste romance fascinante, que vem conquistando milhões de leitores em todos os países e já vendeu mais de 1 milhão de exemplares só no Brasil.",
             pathName: "/images/livros/promocao/o-mundo-de-sofia.jpg",
+            name: "Pedro Barros",
+            comment: "É só o que eu queria... acordar sem querer com alguns milhões",
+            time: "25/10/2018",
+            icon: 'https://react.semantic-ui.com/images/avatar/small/joe.jpg',
         },
     ];
 
