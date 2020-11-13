@@ -1,0 +1,7 @@
+svg{
+    height: 30;
+    width: 30;
+}
+svg:hover{
+    fill: red;
+}
