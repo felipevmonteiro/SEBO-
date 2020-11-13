@@ -54,7 +54,7 @@ return(
                                         </td>
                                         <td>
                                             <input type="text" />
-                                            <CustomizedRatings rating="2" />
+                                            <CustomizedRatings rating="3" />
                                         </td>
                                         <td>
                                             <textarea rows="11" />

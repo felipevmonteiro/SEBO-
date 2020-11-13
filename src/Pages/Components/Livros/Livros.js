@@ -14,6 +14,7 @@ const livros = [
         pathName: "/images/livros/auto-da-compadecida.jpg",
         time: "Hoje às 08:20",
         icon: 'https://react.semantic-ui.com/images/avatar/small/matt.jpg',
+        rate: "3",
     },
     {
         nome: "Livro: A Revolução dos Bichos",
@@ -25,6 +26,7 @@ const livros = [
         pathName: "/images/livros/revolucao-dos-bichos.jpg",
         time: "Hoje às 03:37",
         icon: 'https://react.semantic-ui.com/images/avatar/small/elliot.jpg',
+        rate: "5",
     },
     {
         nome: "Livro: Lolita",
