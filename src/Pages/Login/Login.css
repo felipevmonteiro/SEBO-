@@ -75,7 +75,13 @@
     }
 }
 @media only screen and (width < 800px){
-    
+    .Login{
+        height: 107%; 
+        width: 100%;
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+    }
     .Login .base{ 
         background: linear-gradient(0deg,#ffcbdb,#cc0e74,#790c5a); 
         background-size:300% 300%;
