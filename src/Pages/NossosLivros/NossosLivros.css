@@ -3,7 +3,7 @@
     background-image: url(/images/ramo-cerejeira-3.png);
     background-repeat: no-repeat;
     background-position-x: 100%;
-    background-position-y: -63%;
+    background-position-y: -3.5%;
     background-size: 35%;
 }
 
@@ -28,7 +28,7 @@
     justify-content: center;
     position: relative;
     background-color: white;
-    margin-bottom: 155%;
+    margin-bottom: 5%;
 }
 
 .subtitle{

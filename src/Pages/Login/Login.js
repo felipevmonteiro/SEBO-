@@ -11,8 +11,9 @@ function Login(){
     const history = useHistory(); 
      
     function login(){ 
-        alert("Bem vindo \n" + email) 
-        history.push("Home") 
+        if(email === 'admin'){
+            history.push("adicionarexemplar") 
+        }
     } 
     function cadastre(){
         history.push("Cadastro")

@@ -8,7 +8,7 @@
     font-family: 'Quicksand';
     font-weight: 500!important;
     color:black!important;
-    font-size: 1.7vw;
+    font-size: 20px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -35,7 +35,8 @@
     grid-column-gap: 2.5vw;
     grid-row-gap: 0vh;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    padding-left: 150px;
+    padding: 12.5%;
+    padding-top: 5%;
     color: black;
 }
 
