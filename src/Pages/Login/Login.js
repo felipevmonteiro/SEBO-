@@ -17,7 +17,7 @@ function Login(){
             alert("Bem vindo \n" + email) 
             history.push("Home") 
         }
-    } 
+    }
     function cadastre(){
         history.push("Cadastro")
     }

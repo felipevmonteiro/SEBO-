@@ -6,7 +6,8 @@ import Button from 'react-bootstrap/Button'
 import { useState } from 'react'
 import Upload from "../Components/UploadPhoto/Upload"
 import { Comment } from "../Components/Comments/Comments.js"
-import { CommentText } from 'semantic-ui-react'
+import SimpleRating  from "../Components/Rating/Rating"
+import CustomizedRatings from '../Components/Rating/Rating'
 require('typeface-quicksand')
 
 
@@ -53,7 +54,7 @@ return(
                                         </td>
                                         <td>
                                             <input type="text" />
-                                            <CommentText />
+                                            <CustomizedRatings rating="3" />
                                         </td>
                                         <td>
                                             <textarea rows="11" />
