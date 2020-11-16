@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Comment, Form, Header, Card } from 'semantic-ui-react'
+import { Button, Comment, Form, Header, Card, TextArea } from 'semantic-ui-react'
 require('typeface-quicksand')
 
 const Comments = (props) => (
@@ -21,6 +21,7 @@ const Comments = (props) => (
           <Comment.Actions>
             <Comment.Action>Reply</Comment.Action>
           </Comment.Actions>
+          <TextArea></TextArea>
         </Comment.Content>
       </Comment>
       </Comment.Group>  

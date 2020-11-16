@@ -35,11 +35,11 @@ function Resumo( props ){
                             {data.descricao}
                         </div>
                         <div>
-                            <h5>Já leu este livro? Dê uma avaliação!</h5>
+                            <h5 className = "Rating">Já leu este livro? Dê uma avaliação!</h5>
                             <CustomizedRatings />
                         </div>
 
-                        <div className="classificacao">
+                        <div className = "Comments">
                             <Comments 
                             comment={data.comment} 
                             name={data.name} 
