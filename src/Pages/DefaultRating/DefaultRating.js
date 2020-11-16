@@ -12,18 +12,17 @@ const StyledRating = withStyles({
     color: '#733840',
   },
   iconHover: {
-    color: 'black',
+    color: '#733840',
   },
 })(Rating);
 
-export default function CustomizedRatings(props) {
+export default function DefaultRate(props) {
   return (
     <div>
       <Box component="fieldset" mb={3} borderColor="transparent">
         <StyledRating
-          name="customized-color"
-          defaultValue = {props.rate}
-          getLabelText={(value) => `${value} Heart${value !== 1 ? 's' : ''}`}
+          name="read-only"
+          defaultValue = {props.rate}readOnly
           precision={1}
           icon={<FavoriteIcon fontSize="inherit" />}
           

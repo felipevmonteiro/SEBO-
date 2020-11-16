@@ -12,6 +12,7 @@ function Resumo( props ){
     useEffect(() => {
         setData(props.location.state.livro)
       }, []);
+
     return (
         <>
             <div className="resumo">
@@ -34,9 +35,8 @@ function Resumo( props ){
                             {data.descricao}
                         </div>
                         <div>
-                            <h5>Avaliação da crítica</h5>
-                            <CustomizedRatings 
-                            rating=  {props.rate}  />
+                            <h5>Já leu este livro? Dê uma avaliação!</h5>
+                            <CustomizedRatings />
                         </div>
 
                         <div className="classificacao">
